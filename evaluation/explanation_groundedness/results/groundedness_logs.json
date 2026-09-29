@@ -1,0 +1,4024 @@
+{
+  "summary": {
+    "overall": {
+      "answers": 24,
+      "claims": 365,
+      "claims_per_answer": 15.2083,
+      "claim_labels": {
+        "supported": 0.811,
+        "contradicted": 0.0164,
+        "unsupported": 0.0466,
+        "external": 0.126
+      },
+      "fully_grounded_answers": 0.1667,
+      "answers_citing_data": 0.9167,
+      "answers_leaking_internals": 0.0,
+      "states_not_found": {
+        "applicable": 0,
+        "rate": null
+      },
+      "answers_with_errors": 2
+    },
+    "by_turn": {
+      "turn_1": {
+        "answers": 2,
+        "claims": 23,
+        "claims_per_answer": 11.5,
+        "claim_labels": {
+          "supported": 0.8261,
+          "contradicted": 0.0,
+          "unsupported": 0.0,
+          "external": 0.1739
+        },
+        "fully_grounded_answers": 0.5,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 1
+      },
+      "turn_10": {
+        "answers": 1,
+        "claims": 15,
+        "claims_per_answer": 15.0,
+        "claim_labels": {
+          "supported": 0.7333,
+          "contradicted": 0.0,
+          "unsupported": 0.2,
+          "external": 0.0667
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_11": {
+        "answers": 1,
+        "claims": 22,
+        "claims_per_answer": 22.0,
+        "claim_labels": {
+          "supported": 0.9545,
+          "contradicted": 0.0,
+          "unsupported": 0.0,
+          "external": 0.0455
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_12": {
+        "answers": 1,
+        "claims": 12,
+        "claims_per_answer": 12.0,
+        "claim_labels": {
+          "supported": 0.8333,
+          "contradicted": 0.0,
+          "unsupported": 0.0833,
+          "external": 0.0833
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_13": {
+        "answers": 1,
+        "claims": 12,
+        "claims_per_answer": 12.0,
+        "claim_labels": {
+          "supported": 0.8333,
+          "contradicted": 0.1667,
+          "unsupported": 0.0,
+          "external": 0.0
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_14": {
+        "answers": 1,
+        "claims": 0,
+        "claims_per_answer": 0.0,
+        "claim_labels": {
+          "supported": null,
+          "contradicted": null,
+          "unsupported": null,
+          "external": null
+        },
+        "fully_grounded_answers": 1.0,
+        "answers_citing_data": 0.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_15": {
+        "answers": 1,
+        "claims": 13,
+        "claims_per_answer": 13.0,
+        "claim_labels": {
+          "supported": 0.7692,
+          "contradicted": 0.0769,
+          "unsupported": 0.0,
+          "external": 0.1538
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_16": {
+        "answers": 1,
+        "claims": 3,
+        "claims_per_answer": 3.0,
+        "claim_labels": {
+          "supported": 1.0,
+          "contradicted": 0.0,
+          "unsupported": 0.0,
+          "external": 0.0
+        },
+        "fully_grounded_answers": 1.0,
+        "answers_citing_data": 0.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_2": {
+        "answers": 3,
+        "claims": 68,
+        "claims_per_answer": 22.6667,
+        "claim_labels": {
+          "supported": 0.7353,
+          "contradicted": 0.0147,
+          "unsupported": 0.0441,
+          "external": 0.2059
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_3": {
+        "answers": 2,
+        "claims": 29,
+        "claims_per_answer": 14.5,
+        "claim_labels": {
+          "supported": 0.8276,
+          "contradicted": 0.0,
+          "unsupported": 0.0,
+          "external": 0.1724
+        },
+        "fully_grounded_answers": 0.5,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_4": {
+        "answers": 2,
+        "claims": 44,
+        "claims_per_answer": 22.0,
+        "claim_labels": {
+          "supported": 0.7955,
+          "contradicted": 0.0,
+          "unsupported": 0.0227,
+          "external": 0.1818
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_5": {
+        "answers": 2,
+        "claims": 27,
+        "claims_per_answer": 13.5,
+        "claim_labels": {
+          "supported": 0.8148,
+          "contradicted": 0.0,
+          "unsupported": 0.0741,
+          "external": 0.1111
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_6": {
+        "answers": 1,
+        "claims": 11,
+        "claims_per_answer": 11.0,
+        "claim_labels": {
+          "supported": 0.7273,
+          "contradicted": 0.0,
+          "unsupported": 0.0909,
+          "external": 0.1818
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 1
+      },
+      "turn_7": {
+        "answers": 2,
+        "claims": 29,
+        "claims_per_answer": 14.5,
+        "claim_labels": {
+          "supported": 0.7931,
+          "contradicted": 0.0345,
+          "unsupported": 0.1724,
+          "external": 0.0
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_8": {
+        "answers": 2,
+        "claims": 29,
+        "claims_per_answer": 14.5,
+        "claim_labels": {
+          "supported": 0.931,
+          "contradicted": 0.0345,
+          "unsupported": 0.0,
+          "external": 0.0345
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      },
+      "turn_9": {
+        "answers": 1,
+        "claims": 28,
+        "claims_per_answer": 28.0,
+        "claim_labels": {
+          "supported": 0.8214,
+          "contradicted": 0.0,
+          "unsupported": 0.0357,
+          "external": 0.1429
+        },
+        "fully_grounded_answers": 0.0,
+        "answers_citing_data": 1.0,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 0
+      }
+    },
+    "by_intent": {
+      "no intent": {
+        "answers": 24,
+        "claims": 365,
+        "claims_per_answer": 15.2083,
+        "claim_labels": {
+          "supported": 0.811,
+          "contradicted": 0.0164,
+          "unsupported": 0.0466,
+          "external": 0.126
+        },
+        "fully_grounded_answers": 0.1667,
+        "answers_citing_data": 0.9167,
+        "answers_leaking_internals": 0.0,
+        "states_not_found": {
+          "applicable": 0,
+          "rate": null
+        },
+        "answers_with_errors": 2
+      }
+    },
+    "by_claim_type": {
+      "genre_pref": {
+        "claims": 47,
+        "supported": 0.9149,
+        "contradicted": 0.0426,
+        "unsupported": 0.0426,
+        "external": 0.0
+      },
+      "movie_ref": {
+        "claims": 56,
+        "supported": 0.9464,
+        "contradicted": 0.0,
+        "unsupported": 0.0179,
+        "external": 0.0357
+      },
+      "peer_stat": {
+        "claims": 54,
+        "supported": 0.8889,
+        "contradicted": 0.0556,
+        "unsupported": 0.0556,
+        "external": 0.0
+      },
+      "prediction": {
+        "claims": 24,
+        "supported": 0.9167,
+        "contradicted": 0.0,
+        "unsupported": 0.0833,
+        "external": 0.0
+      },
+      "qualitative": {
+        "claims": 169,
+        "supported": 0.6805,
+        "contradicted": 0.0059,
+        "unsupported": 0.0533,
+        "external": 0.2604
+      },
+      "user_rating": {
+        "claims": 6,
+        "supported": 1.0,
+        "contradicted": 0.0,
+        "unsupported": 0.0,
+        "external": 0.0
+      },
+      "user_stat": {
+        "claims": 9,
+        "supported": 1.0,
+        "contradicted": 0.0,
+        "unsupported": 0.0,
+        "external": 0.0
+      }
+    },
+    "leaked_terms": {}
+  },
+  "answers": [
+    {
+      "case_id": "20260928-234631_user30_554d3402#t1",
+      "turn": 1,
+      "intent": null,
+      "user_id": 30,
+      "answer": "Tonight, three that fit you well:\n\n**Harry Potter and the Prisoner of Azkaban** — Harry's third year at Hogwarts gets dark fast when an escaped prisoner is rumored to be hunting him. Folks with taste like yours gave it 4.0★, and it's an adventure with the big-screen feel you tend to love.\n\n**American History X** — A former neo-Nazi tries to steer his younger brother off the same path after his own time in prison changed him. Heavy but powerful, and people who rate like you put it at 4.3★. Crime dramas are clearly your lane.\n\n**The Usual Suspects** — Five criminals are thrown together in a lineup, and the job they get pulled into spirals into something much bigger. Twisty crime mystery, 4.3★ from your kind of viewer — though heads up, the payoff is the whole point, so go in unspoiled.\n\nWant something lighter, or are you in the mood for one of these?",
+      "claims": [],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": "ValidationError: 1 validation error for JudgeOutput\n  Invalid JSON: EOF while parsing a value at line 1 column 2847 [type=json_invalid, input_value='{\"judgements\": [{\"index\"..._for_user#1\", \"reason\":', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+    },
+    {
+      "case_id": "20260928-234631_user30_554d3402#t2",
+      "turn": 2,
+      "intent": null,
+      "user_id": 30,
+      "answer": "Happy to — it's the third Harry Potter one, and it's a real shift in tone from the first two. Harry's thirteen and stuck at the Dursleys for the summer; after an ugly blow-up with Aunt Marge he storms out and gets picked up by the Knight Bus, which drops him at the Leaky Cauldron. There he hears the news: Sirius Black, a convicted supporter of Voldemort, has escaped from Azkaban prison, and the rumor is he's coming for Harry.\n\nBack at Hogwarts, Dementors — the soul-draining guards from Azkaban — are posted around the school, and they hit Harry harder than anyone else. The new Defense Against the Dark Arts teacher, Professor Lupin, takes him under his wing to teach him a Patronus charm so he can fight them off. Meanwhile Hagrid's first Care of Magical Creatures class goes badly wrong, Draco gets his father involved, and a Hippogriff ends up sentenced to death. There's also the Marauder's Map — a magical document showing every person in the castle and all the secret passages — which is where things start getting genuinely mysterious.\n\nTwo things I'll leave alone since they're the good part: why Sirius really escaped, and everything the last act does with that. Go in cold.\n\nIt's got the adventure and spectacle you clearly go for, and people with taste like yours rated it 4.0★. Want me to check what your kind of viewer thought of the next one in the series, or line up something else?",
+      "claims": [
+        {
+          "text": "The movie is the third Harry Potter one.",
+          "type": "movie_ref",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The tool returned the title 'Harry Potter and the Prisoner of Azkaban', the third Harry Potter film."
+        },
+        {
+          "text": "The third Harry Potter movie is a real shift in tone from the first two.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone shift from the first two films is general movie knowledge, not stated in the tool output."
+        },
+        {
+          "text": "Harry is thirteen.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Harry is 'Now 13-years-old'."
+        },
+        {
+          "text": "Harry is stuck at the Dursleys for the summer.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Harry has been spending the summer at Privet Drive, the Dursleys' home."
+        },
+        {
+          "text": "Harry has an ugly blow-up with Aunt Marge.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot describes Marge insulting Harry's parents and Harry losing his temper."
+        },
+        {
+          "text": "Harry storms out after the blow-up with Aunt Marge.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Harry flees, fed up with his life at Privet Drive."
+        },
+        {
+          "text": "Harry gets picked up by the Knight Bus.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says 'The Knight Bus appears'."
+        },
+        {
+          "text": "The Knight Bus drops Harry at the Leaky Cauldron.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says the Knight Bus 'delivers Harry to the Leaky Cauldron'."
+        },
+        {
+          "text": "Harry hears the news at the Leaky Cauldron.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot places Harry at the Leaky Cauldron when he learns about Sirius Black."
+        },
+        {
+          "text": "Sirius Black is a convicted supporter of Voldemort.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot calls Sirius Black 'a convicted supporter of Lord Voldemort'."
+        },
+        {
+          "text": "Sirius Black has escaped from Azkaban prison.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Sirius Black 'has escaped Azkaban prison'."
+        },
+        {
+          "text": "The rumor is that Sirius Black is coming for Harry.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Sirius is 'likely intending to kill Harry'."
+        },
+        {
+          "text": "Dementors are soul-draining guards from Azkaban.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The plot mentions soul-sucking and guarding, but not that Dementors are from Azkaban."
+        },
+        {
+          "text": "Dementors are posted around Hogwarts.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Dementors 'will be guarding the school'."
+        },
+        {
+          "text": "Dementors hit Harry harder than anyone else.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The plot shows Harry being strongly affected, but does not state he is affected harder than anyone else."
+        },
+        {
+          "text": "Professor Lupin is the new Defense Against the Dark Arts teacher.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot identifies Remus Lupin as 'the new Defence Against the Dark Arts teacher'."
+        },
+        {
+          "text": "Professor Lupin takes Harry under his wing.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Lupin secretly teaches Harry to defend himself."
+        },
+        {
+          "text": "Professor Lupin teaches Harry a Patronus charm.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Lupin teaches Harry the Patronus charm."
+        },
+        {
+          "text": "The Patronus charm is taught so Harry can fight off Dementors.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says the charm is for defending himself against Dementors."
+        },
+        {
+          "text": "Hagrid's first Care of Magical Creatures class goes badly wrong.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Hagrid's first class 'goes awry'."
+        },
+        {
+          "text": "Draco gets his father involved.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Draco's father Lucius Malfoy has Buckbeak sentenced to death."
+        },
+        {
+          "text": "A Hippogriff ends up sentenced to death.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says Buckbeak is sentenced to death."
+        },
+        {
+          "text": "There is a Marauder's Map.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot mentions the Marauder's Map."
+        },
+        {
+          "text": "The Marauder's Map is a magical document.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot calls it 'a magical document'."
+        },
+        {
+          "text": "The Marauder's Map shows every person in the castle.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says it shows 'every person's location within Hogwarts'."
+        },
+        {
+          "text": "The Marauder's Map shows all secret passages.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The plot says it shows 'secret passageways in and out of the school castle'."
+        },
+        {
+          "text": "The Marauder's Map is where things start getting genuinely mysterious.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No evidence states that the Marauder's Map is where things start getting mysterious."
+        },
+        {
+          "text": "The third Harry Potter movie has adventure.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The tool lists 'Adventure' among the movie's genres."
+        },
+        {
+          "text": "The third Harry Potter movie has spectacle.",
+          "type": "qualitative",
+          "movie_title": "the third Harry Potter one",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No evidence states the movie has 'spectacle'."
+        },
+        {
+          "text": "The user clearly goes for adventure.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "The user profile shows Adventure with avg_rating 4.714 and medium confidence."
+        },
+        {
+          "text": "The user clearly goes for spectacle.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No evidence states the user goes for spectacle."
+        },
+        {
+          "text": "People with taste like the user's rated the third Harry Potter movie 4.0.",
+          "type": "peer_stat",
+          "movie_title": "the third Harry Potter one",
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "H1.recommend_for_user#1",
+          "reason": "The tool says similar users rated it 4.0★ on average."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t1",
+      "turn": 1,
+      "intent": null,
+      "user_id": 1,
+      "answer": "Here are two that fit your taste tonight:\n\n**One Flew Over the Cuckoo's Nest** (1975) — A rebellious convict fakes his way into a mental ward and goes head-to-head with its icy head nurse; it's a drama about who really gets to decide what \"crazy\" means. Overall it sits at 4.2★, and folks with taste like yours rated it 4.3★ — drama's a strong suit for you.\n\n**Chitty Chitty Bang Bang** (1968) — An eccentric inventor rebuilds a broken-down car that turns out to fly, then gets tangled up with a tyrant who wants it for himself. It's a musical-fantasy-adventure romp with the children's-movie charm you tend to rate well. It averages 3.5★, with your most like-minded viewers landing at 3.6★ — a lighter, more divisive one.\n\nWant me to lean one way or the other — something heavier or something fun?",
+      "claims": [
+        {
+          "text": "One Flew Over the Cuckoo's Nest (1975) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": 1975.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Result title and year match the movie reference."
+        },
+        {
+          "text": "One Flew Over the Cuckoo's Nest is a drama.",
+          "type": "qualitative",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Genres field includes Drama."
+        },
+        {
+          "text": "In One Flew Over the Cuckoo's Nest, a rebellious convict fakes his way into a mental ward.",
+          "type": "qualitative",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Plot describes a convict transferred to a mental institution for evaluation."
+        },
+        {
+          "text": "In One Flew Over the Cuckoo's Nest, the rebellious convict goes head-to-head with the mental ward's icy head nurse.",
+          "type": "qualitative",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Plot describes a battle of wills with Nurse Ratched."
+        },
+        {
+          "text": "One Flew Over the Cuckoo's Nest is about who really gets to decide what 'crazy' means.",
+          "type": "qualitative",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Thematic interpretation not stated in the plot summary."
+        },
+        {
+          "text": "One Flew Over the Cuckoo's Nest overall sits at 4.2★.",
+          "type": "qualitative",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "mean_rating is 4.2."
+        },
+        {
+          "text": "Folks with taste like the user's rated One Flew Over the Cuckoo's Nest 4.3★.",
+          "type": "peer_stat",
+          "movie_title": "One Flew Over the Cuckoo's Nest",
+          "value": 4.3,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "similar_users field says 4.3★ on average."
+        },
+        {
+          "text": "Drama is a strong suit for the user.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_user_profile#0",
+          "reason": "Drama has avg_rating 4.41, deviation 0.101, and high confidence."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang (1968) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 1968.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Result title and year match the movie reference."
+        },
+        {
+          "text": "In Chitty Chitty Bang Bang, an eccentric inventor rebuilds a broken-down car that turns out to fly.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Plot describes an eccentric inventor rebuilding a car that flies."
+        },
+        {
+          "text": "In Chitty Chitty Bang Bang, the eccentric inventor gets tangled up with a tyrant who wants the flying car for himself.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Plot describes Baron Bomburst wanting to steal Chitty."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang is a musical-fantasy-adventure romp.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "Genres include Musical, Fantasy, and Adventure."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang has children's-movie charm.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone/charm descriptor not present in the evidence."
+        },
+        {
+          "text": "The user tends to rate children's-movie charm well.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_user_profile#0",
+          "reason": "Children genre has avg_rating 4.414 and high confidence."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang averages 3.5★.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 3.5,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "mean_rating is 3.5."
+        },
+        {
+          "text": "The user's most like-minded viewers landed at 3.6★ for Chitty Chitty Bang Bang.",
+          "type": "peer_stat",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 3.6,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#1",
+          "reason": "similar_users field says 3.6★ on average."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang is a lighter one.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone descriptor not present in the evidence."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang is a more divisive one.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone/interpretation not present in the evidence."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t2",
+      "turn": 2,
+      "intent": null,
+      "user_id": 1,
+      "answer": "**Chitty Chitty Bang Bang** is pure musical-fantasy-Adventure candy: an eccentric inventor dad, Caractacus Potts, rebuilds a wrecked race car with his two kids, and it turns out the thing can float — and fly. There's a whole story-within-a-story about a tyrant baron who covets the car, a village that hides its children, and a Child Catcher lurking around, so it's got real stakes under the songs and slapstick. Musicals are a big strength for you, and kids' fantasy-adventure is right in your wheelhouse too.\n\nThe catch is that it's a divisive one. The people closest to your taste are genuinely split — a couple gave it 5★ and 4★, but others landed at 2★ to 2.5★. Broadly, movies judged like this one get liked about 9 times out of 10, so it's less \"everyone loves it\" and more \"you'll likely be on the love side or the shrug side.\"\n\nWant me to put something safer next to it — like **Mary Poppins**, which hits the same musical-fantasy-nanny sweet spot?",
+      "claims": [
+        {
+          "text": "Chitty Chitty Bang Bang is a musical-fantasy-Adventure movie.",
+          "type": "movie_ref",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Its movie record lists genres Adventure, Children, Comedy, Fantasy, Musical, matching the asserted descriptors."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang features an eccentric inventor dad named Caractacus Potts.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Characterisation of Caractacus Potts as an eccentric inventor father comes from general film knowledge, not the returned metadata/truncated plot."
+        },
+        {
+          "text": "Caractacus Potts rebuilds a wrecked race car with his two kids.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Rebuilding-the-wrecked-car-with-kids detail is neither in the stored fields nor the visible plot excerpt."
+        },
+        {
+          "text": "The rebuilt race car in Chitty Chitty Bang Bang can float.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Ability to float is standard lore about the film, not present in the tool outputs."
+        },
+        {
+          "text": "The rebuilt race car in Chitty Chitty Bang Bang can fly.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Flight capability likewise derives from outside movie knowledge, not the evidence."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang contains a story-within-a-story about a tyrant baron who covets the car.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "'Story-within-a-story', tyranny and covetousness are narrative interpretations absent from the truncated plot text."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang includes a village that hides its children.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Village concealing children is a plot point recalled independently, not furnished by the searches."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang includes a Child Catcher lurking around.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The Child Catcher figure is common cultural knowledge about the film, not recorded in the evidence."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang has real stakes under the songs and slapstick.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Critical judgement about serious undertones beneath song-and-comedy surface is tonal analysis foreign to the data."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang is a divisive movie.",
+          "type": "qualitative",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Labelling the film culturally 'divisive' invokes reputational knowledge beyond the limited peer sample."
+        },
+        {
+          "text": "Musicals are a big strength for the user.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "Profile ranks Musical highly (avg 4.722, deviation +0.413, high-confidence 18 ratings), confirming it as a standout strength."
+        },
+        {
+          "text": "Kids' fantasy-adventure is right in the user's wheelhouse.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "Positive deviations for Children (+0.105), Animation (+0.246) and Adventure (+0.050) back the kid-friendly fantasy/adventure affinity."
+        },
+        {
+          "text": "The people closest to the user's taste are genuinely split on Chitty Chitty Bang Bang.",
+          "type": "peer_stat",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Similar-user ratings span 5.0 down to 2.0, i.e. genuinely divided sentiment."
+        },
+        {
+          "text": "A couple of the people closest to the user's taste gave Chitty Chitty Bang Bang 5★.",
+          "type": "peer_stat",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 5.0,
+          "label": "contradicted",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Only one similar rater awarded 5★ (user 448); asserting 'a couple' misrepresents the count."
+        },
+        {
+          "text": "Some of the people closest to the user's taste gave Chitty Chitty Bang Bang 4★.",
+          "type": "peer_stat",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "User 307, a very similar rater, scored it 4.0, satisfying the modest existential quantifier 'some'."
+        },
+        {
+          "text": "Others among the people closest to the user's taste gave Chitty Chitty Bang Bang 2★ to 2.5★.",
+          "type": "peer_stat",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 2.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Three similar raters assigned 2.0–2.5 (users 369, 599, 167), fitting the lower-score grouping cited."
+        },
+        {
+          "text": "Movies judged like Chitty Chitty Bang Bang get liked about 9 times out of 10.",
+          "type": "prediction",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": 9.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Confidence text states 'About 9 in 10 movies judged like this one were liked,' equivalent to the paraphrased odds."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t3",
+      "turn": 3,
+      "intent": null,
+      "user_id": 1,
+      "answer": "**Mary Poppins** (1964) is the safer bet of the two. A magical nanny blows in on the wind to look after two neglected kids in 1910 London, and takes them on outings that slide straight into animated countryside, rooftop chimney-sweep dances and floating tea parties — all while quietly melting their stuffy banker father. It's Mary Poppins, Bert, \"Supercalifragilisticexpialidocious,\" the works.\n\nIt averages 3.9★ overall, and your most like-minded viewers gave it 3.8★ — a tighter cluster than Chitty Chitty Bang Bang, though still with one outlier at 2.5★. Musicals and kids' fantasy are exactly your strong suits, and movies judged like this one get liked about 9 times out of 10, so I'd feel good about this one tonight.\n\nWant a third option that skews heavier, in case you're after something meatier than whimsy?",
+      "claims": [
+        {
+          "text": "Mary Poppins (1964)",
+          "type": "movie_ref",
+          "movie_title": "Mary Poppins",
+          "value": 1964.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Tool output gives movie title 'Mary Poppins' with year 1964."
+        },
+        {
+          "text": "Chitty Chitty Bang Bang",
+          "type": "movie_ref",
+          "movie_title": "Chitty Chitty Bang Bang",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_peer_opinion#0",
+          "reason": "Tool output confirms the movie 'Chitty Chitty Bang Bang'."
+        },
+        {
+          "text": "Mary Poppins (1964) is the safer bet of the two.",
+          "type": "prediction",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Mary Poppins peer avg 3.79 vs Chitty's 3.612, and tighter cluster, so it's the safer bet."
+        },
+        {
+          "text": "Mary Poppins features a magical nanny who blows in on the wind.",
+          "type": "qualitative",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Plot detail about a magical nanny blowing in on the wind comes from general movie knowledge, not the tool data."
+        },
+        {
+          "text": "In Mary Poppins, the nanny looks after two neglected kids in 1910 London.",
+          "type": "qualitative",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Plot detail about two neglected kids in 1910 London is external movie knowledge."
+        },
+        {
+          "text": "In Mary Poppins, the nanny takes the kids on outings that slide into animated countryside, rooftop chimney-sweep dances, and floating tea parties.",
+          "type": "qualitative",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Plot details about animated countryside, chimney-sweep dances, floating tea parties are external."
+        },
+        {
+          "text": "In Mary Poppins, the nanny quietly melts the children's stuffy banker father.",
+          "type": "qualitative",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Plot detail about melting the stuffy banker father is external movie knowledge."
+        },
+        {
+          "text": "Mary Poppins features Mary Poppins, Bert, and “Supercalifragilisticexpialidocious.”",
+          "type": "qualitative",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Character/song details (Bert, Supercalifragilisticexpialidocious) are external movie knowledge."
+        },
+        {
+          "text": "Mary Poppins averages 3.9★ overall.",
+          "type": "peer_stat",
+          "movie_title": "Mary Poppins",
+          "value": 3.9,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Tool output shows mean_rating 3.9 for Mary Poppins."
+        },
+        {
+          "text": "The user's most like-minded viewers gave Mary Poppins 3.8★.",
+          "type": "peer_stat",
+          "movie_title": "Mary Poppins",
+          "value": 3.8,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "weighted_avg 3.79 rounds to 3.8★ for similar users."
+        },
+        {
+          "text": "The user's most like-minded viewers' ratings for Mary Poppins form a tighter cluster than for Chitty Chitty Bang Bang.",
+          "type": "peer_stat",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Mary Poppins ratings (4,4,3,5,2.5,4,4) are tighter than Chitty's (5,4,2,2.5,2.5)."
+        },
+        {
+          "text": "Mary Poppins has one outlier among the user's most like-minded viewers' ratings.",
+          "type": "peer_stat",
+          "movie_title": "Mary Poppins",
+          "value": 1.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "One rating of 2.5 stands out among the otherwise 3-5 ratings."
+        },
+        {
+          "text": "The outlier rating for Mary Poppins is 2.5★.",
+          "type": "peer_stat",
+          "movie_title": "Mary Poppins",
+          "value": 2.5,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "User 387's rating of 2.5 is the outlier."
+        },
+        {
+          "text": "Musicals are exactly the user's strong suit.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "Musical has avg_rating 4.722, deviation 0.413, high confidence — a top strength."
+        },
+        {
+          "text": "Kids' fantasy is exactly the user's strong suit.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "Children/Fantasy genres show high positive deviations in the profile."
+        },
+        {
+          "text": "Movies judged like Mary Poppins get liked about 9 times out of 10.",
+          "type": "prediction",
+          "movie_title": "Mary Poppins",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Confidence text 'About 9 in 10 movies judged like this one were liked.'"
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t4",
+      "turn": 4,
+      "intent": null,
+      "user_id": 1,
+      "answer": "Mostly because of the musical thing. You rate musicals way above your own average — clearly a sweet spot for you — and kids' movies too, both with high confidence. Fantasy and comedy, on the other hand, sit a touch below your average, so that's the mild counterpoint.\n\nThe clincher is the company it keeps: the movies most like it that you've loved are **Willy Wonka & the Chocolate Factory**, **Alice in Wonderland** and **Bedknobs and Broomsticks** — you gave all three 5★. Same whimsical British musical-fantasy lane. And across your history it projects to around 4.3★; movies judged like this one get liked about 9 times out of 10, so the confidence is high. Only wobble is that one close-taste viewer shrugged at 2.5★.",
+      "claims": [
+        {
+          "text": "The user rates musicals way above their own average.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Musical avg_rating 4.722 vs user_mean 4.309, deviation +0.413, so above own average."
+        },
+        {
+          "text": "Musicals are clearly a sweet spot for the user.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Musical deviation +0.413 with high confidence supports calling it a sweet spot."
+        },
+        {
+          "text": "The user has high confidence for musicals.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "genre_preferences_for_movie_genres lists Musical confidence 'high'."
+        },
+        {
+          "text": "The user rates kids' movies way above their own average.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Children avg_rating 4.414 vs user_mean 4.309, deviation +0.105, above average."
+        },
+        {
+          "text": "Kids' movies are clearly a sweet spot for the user.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Children deviation +0.105 with high confidence supports sweet-spot framing."
+        },
+        {
+          "text": "The user has high confidence for kids' movies.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Children confidence listed as 'high'."
+        },
+        {
+          "text": "Fantasy sits a touch below the user's average.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Fantasy deviation -0.074, slightly below user mean."
+        },
+        {
+          "text": "Comedy sits a touch below the user's average.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Comedy deviation -0.102, slightly below user mean."
+        },
+        {
+          "text": "Willy Wonka & the Chocolate Factory is one of the movies most like the target movie that the user has loved.",
+          "type": "qualitative",
+          "movie_title": "Willy Wonka & the Chocolate Factory",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Listed under most_similar_liked_movies."
+        },
+        {
+          "text": "Alice in Wonderland is one of the movies most like the target movie that the user has loved.",
+          "type": "qualitative",
+          "movie_title": "Alice in Wonderland",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Listed under most_similar_liked_movies."
+        },
+        {
+          "text": "Bedknobs and Broomsticks is one of the movies most like the target movie that the user has loved.",
+          "type": "qualitative",
+          "movie_title": "Bedknobs and Broomsticks",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Listed under most_similar_liked_movies."
+        },
+        {
+          "text": "The user gave Willy Wonka & the Chocolate Factory 5★.",
+          "type": "user_rating",
+          "movie_title": "Willy Wonka & the Chocolate Factory",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "user_rating 5.0 for Willy Wonka."
+        },
+        {
+          "text": "The user gave Alice in Wonderland 5★.",
+          "type": "user_rating",
+          "movie_title": "Alice in Wonderland",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "user_rating 5.0 for Alice in Wonderland."
+        },
+        {
+          "text": "The user gave Bedknobs and Broomsticks 5★.",
+          "type": "user_rating",
+          "movie_title": "Bedknobs and Broomsticks",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "user_rating 5.0 for Bedknobs and Broomsticks."
+        },
+        {
+          "text": "Willy Wonka & the Chocolate Factory is in the whimsical British musical-fantasy lane.",
+          "type": "qualitative",
+          "movie_title": "Willy Wonka & the Chocolate Factory",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Genre/tone characterization of Willy Wonka not stated in the data."
+        },
+        {
+          "text": "Alice in Wonderland is in the whimsical British musical-fantasy lane.",
+          "type": "qualitative",
+          "movie_title": "Alice in Wonderland",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Genre/tone characterization of Alice in Wonderland not in the data."
+        },
+        {
+          "text": "Bedknobs and Broomsticks is in the whimsical British musical-fantasy lane.",
+          "type": "qualitative",
+          "movie_title": "Bedknobs and Broomsticks",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Genre/tone characterization of Bedknobs and Broomsticks not in the data."
+        },
+        {
+          "text": "The movie being discussed is in the whimsical British musical-fantasy lane.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Characterizing Mary Poppins as whimsical British musical-fantasy is general knowledge, not from the tools."
+        },
+        {
+          "text": "Across the user's history, the movie being discussed projects to around 4.3★.",
+          "type": "prediction",
+          "movie_title": null,
+          "value": 4.3,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Reason text: 'you would likely rate it about 4.3★.'"
+        },
+        {
+          "text": "Movies judged like this one get liked about 9 times out of 10.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Confidence text: 'About 9 in 10 movies judged like this one were liked.'"
+        },
+        {
+          "text": "The confidence is high.",
+          "type": "prediction",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "Confidence level 'high'."
+        },
+        {
+          "text": "There is one close-taste viewer.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 1.0,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No count of 'one close-taste viewer' is given; peer_ratings lists five raters."
+        },
+        {
+          "text": "The close-taste viewer rated the movie 2.5★.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 2.5,
+          "label": "supported",
+          "evidence_id": "T.explain_match#0",
+          "reason": "peer_ratings includes user 387 with rating 2.5."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t5",
+      "turn": 5,
+      "intent": null,
+      "user_id": 1,
+      "answer": "Two, and honestly they're pretty niche:\n\n- **Documentary** — you've never rated one, and it makes up a small slice of what's out there.\n- **IMAX** — same deal, zero ratings; that one's more a format tag than a genre, so it's less of a gap in taste and more a gap in the record.\n\nEverything else you've touched at least a bit. Want me to dig up a well-liked documentary to test the waters, or would you rather steer clear?",
+      "claims": [
+        {
+          "text": "The user has two unrated categories.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": 2.0,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "The tool returns exactly two genres with n_ratings 0."
+        },
+        {
+          "text": "The two unrated categories are pretty niche.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "Both returned genres have catalog_share around 1.6%, which directly supports calling them niche."
+        },
+        {
+          "text": "The user has never rated a Documentary.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "Documentary is listed with n_ratings 0."
+        },
+        {
+          "text": "Documentary makes up a small slice of what's out there.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "Documentary has catalog_share 0.016, i.e. a small slice of the catalog."
+        },
+        {
+          "text": "The user has zero ratings for IMAX.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": 0.0,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "IMAX is listed with n_ratings 0."
+        },
+        {
+          "text": "IMAX is more a format tag than a genre.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The claim that IMAX is more a format tag than a genre is general movie knowledge, not present in the tool output."
+        },
+        {
+          "text": "IMAX is less of a gap in taste.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "The evidence shows zero IMAX ratings but does not state that this is less of a taste gap."
+        },
+        {
+          "text": "IMAX is more of a gap in the record.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "IMAX has n_ratings 0, so it is a gap in the user's rating record."
+        },
+        {
+          "text": "The user has touched every other genre at least a bit.",
+          "type": "user_stat",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "The blind-spot tool returns only Documentary and IMAX, implying all other genres have at least some ratings."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t6",
+      "turn": 6,
+      "intent": null,
+      "user_id": 1,
+      "answer": "Two documentaries worth trying, with a caveat on one:\n\n**Roger & Me** (1989) — Michael Moore goes back to his hometown of Flint, Michigan, after General Motors announces mass layoffs there, and spends the film trying to actually corner GM's chairman to ask him about it. It's angry, funny, and very personal. It averages 3.9★, and your most like-minded viewers gave it 4.0★ — a solid landing spot for a genre you've never dipped into.\n\n**When We Were Kings** (1996) — averages 3.9★ with similar viewers at 3.9★, so the numbers are good, but I have to be straight with you: the plot description I got for it looks like it belongs to a different film entirely (it's describing a Shakespeare-style mistaken-identity comedy), so I can't tell you what it's actually about with any confidence. Happy to skip it unless you're curious.\n\nOne honest note: since you've never rated a documentary, there's no real history to lean on — these are picks on general appeal plus how your close-taste viewers rated them, not deep personalisation. Fancy giving **Roger & Me** a go?",
+      "claims": [],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": "judge returned no label for 16 claim(s)"
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t7",
+      "turn": 7,
+      "intent": null,
+      "user_id": 1,
+      "answer": "**Buena Vista Social Club** (1999) is the one to look at — it's the close-to-4.5 documentary. It follows how Ry Cooder gathered a group of legendary Cuban musicians to cut an album and play a sold-out concert in the States, many of them travelling there for the first time, with interviews with the performers woven in. It averages 4.4★ overall, and the folks most like you gave it 4.5★. Bonus: it's also tagged Musical, which is a real strength for you.\n\nStraight up, though: documentaries sitting at a 4.5+ overall are thin on the ground here — most of what's in the catalog lands around 3.9 to 4.4, so Buena Vista is about as high as it gets. Want me to widen the net and find 4.5★-and-up picks outside documentaries?",
+      "claims": [
+        {
+          "text": "Buena Vista Social Club is from 1999.",
+          "type": "movie_ref",
+          "movie_title": "Buena Vista Social Club",
+          "value": 1999.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The tool result lists Buena Vista Social Club with year 1999."
+        },
+        {
+          "text": "Buena Vista Social Club is a documentary.",
+          "type": "movie_ref",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The tool result lists its genres as including Documentary."
+        },
+        {
+          "text": "Buena Vista Social Club is close to 4.5 overall.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": 4.5,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The tool result gives mean_rating 4.4, which is close to 4.5."
+        },
+        {
+          "text": "Buena Vista Social Club follows how Ry Cooder gathered a group of legendary Cuban musicians to cut an album.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The plot description says Ry Cooder brought together legendary Cuban musicians to record an album."
+        },
+        {
+          "text": "In Buena Vista Social Club, the group of Cuban musicians play a sold-out concert in the States.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The plot description mentions performing a concert in the United States and footage of the resultant sell-out concert."
+        },
+        {
+          "text": "In Buena Vista Social Club, many of the musicians travel to the States for the first time.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The plot description says many of the artists were travelling there for the first time."
+        },
+        {
+          "text": "Buena Vista Social Club includes interviews with the performers.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The plot description says it includes interviews with each of the main performers."
+        },
+        {
+          "text": "Buena Vista Social Club averages 4.4★ overall.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": 4.4,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The tool result gives mean_rating 4.4."
+        },
+        {
+          "text": "The users most similar to the user gave Buena Vista Social Club 4.5★.",
+          "type": "peer_stat",
+          "movie_title": "Buena Vista Social Club",
+          "value": 4.5,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The similar_users field says the 4 people most like the user rated it 4.5★ on average."
+        },
+        {
+          "text": "Buena Vista Social Club is tagged Musical.",
+          "type": "movie_ref",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "The tool result lists its genres as including Musical."
+        },
+        {
+          "text": "Musical is a real strength for the user.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "The profile shows Musical with avg_rating 4.722, positive deviation, and high confidence."
+        },
+        {
+          "text": "Documentaries sitting at 4.5+ overall are thin on the ground in the catalog.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No catalog-wide statistic about documentaries rated 4.5+ is provided; the search returned only Buena Vista Social Club and Roger & Me."
+        },
+        {
+          "text": "Most of what is in the catalog lands around 3.9 to 4.4.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "The evidence does not give catalog-wide rating distribution; only the two documentary search results are shown."
+        },
+        {
+          "text": "Buena Vista Social Club is about as high-rated as it gets in the catalog.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No evidence establishes that Buena Vista Social Club is among the highest-rated items in the entire catalog."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-000725_user1_074e2470#t8",
+      "turn": 8,
+      "intent": null,
+      "user_id": 1,
+      "answer": "If you want that 4.5-and-up range, this is the one: **The Shawshank Redemption** (1994). A banker sentenced to life for a murder he says he didn't commit builds an unlikely friendship with a fellow inmate and quietly refuses to let the place crush him. It averages 4.4★ overall, and viewers with taste like yours pushed it to 4.7★ — the highest of anything I've turned up for you.\n\nWorth knowing it's Crime/Drama, which is a slightly-below-average lane for you genre-wise — but the peer love on this one is strong enough that it more than covers that.\n\nIf you'd rather stay in your musical/children's wheelhouse, **Buena Vista Social Club** (4.4★, 4.5★ from your crowd) is still sitting there. Which way are you leaning?",
+      "claims": [
+        {
+          "text": "The Shawshank Redemption is a 1994 movie.",
+          "type": "movie_ref",
+          "movie_title": "The Shawshank Redemption",
+          "value": 1994.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Tool output lists The Shawshank Redemption with year 1994."
+        },
+        {
+          "text": "The Shawshank Redemption averages 4.4★ overall.",
+          "type": "qualitative",
+          "movie_title": "The Shawshank Redemption",
+          "value": 4.4,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Tool output gives mean_rating 4.4 for The Shawshank Redemption."
+        },
+        {
+          "text": "Viewers with taste like the user's pushed The Shawshank Redemption to 4.7★.",
+          "type": "peer_stat",
+          "movie_title": "The Shawshank Redemption",
+          "value": 4.7,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Tool output says the 20 people most like the user rated it 4.7★ on average."
+        },
+        {
+          "text": "The Shawshank Redemption is the highest of anything the assistant has turned up for the user.",
+          "type": "qualitative",
+          "movie_title": "The Shawshank Redemption",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Its 4.7 peer average is the highest among all movies the assistant surfaced; overall 4.4 is tied with Buena Vista Social Club."
+        },
+        {
+          "text": "The Shawshank Redemption is about a banker sentenced to life for a murder he says he didn't commit.",
+          "type": "qualitative",
+          "movie_title": "The Shawshank Redemption",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The plot says banker Andy Dufresne is convicted of murdering his wife and her lover based on circumstantial evidence, and later suggests his innocence."
+        },
+        {
+          "text": "The Shawshank Redemption features the banker building an unlikely friendship with a fellow inmate.",
+          "type": "qualitative",
+          "movie_title": "The Shawshank Redemption",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The plot says Andy quickly befriends Red, a fellow inmate serving a life sentence."
+        },
+        {
+          "text": "The Shawshank Redemption features the banker quietly refusing to let the place crush him.",
+          "type": "qualitative",
+          "movie_title": "The Shawshank Redemption",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The plot says Andy holds onto hope as something the prison cannot take from him and eventually escapes."
+        },
+        {
+          "text": "The Shawshank Redemption is Crime/Drama.",
+          "type": "movie_ref",
+          "movie_title": "The Shawshank Redemption",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Tool output lists the genres as [Crime, Drama]."
+        },
+        {
+          "text": "Crime/Drama is a slightly-below-average lane for the user genre-wise.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "contradicted",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "Crime has deviation -0.109 (below average), but Drama has deviation +0.101 (above average), so the combined Crime/Drama lane is not slightly below average."
+        },
+        {
+          "text": "Peer love on The Shawshank Redemption is strong enough to more than cover the genre gap.",
+          "type": "qualitative",
+          "movie_title": "The Shawshank Redemption",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The 4.7 peer average is well above the user's 4.309 mean, while the Crime genre deviation is only -0.109, so the inference that peer love covers the small gap follows."
+        },
+        {
+          "text": "Buena Vista Social Club is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Buena Vista Social Club",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H7.search_by_description#0",
+          "reason": "Buena Vista Social Club appears as a movie result with year and genres."
+        },
+        {
+          "text": "Buena Vista Social Club averages 4.4★.",
+          "type": "qualitative",
+          "movie_title": "Buena Vista Social Club",
+          "value": 4.4,
+          "label": "supported",
+          "evidence_id": "H7.search_by_description#0",
+          "reason": "Tool output gives mean_rating 4.4 for Buena Vista Social Club."
+        },
+        {
+          "text": "Buena Vista Social Club has 4.5★ from the user's crowd.",
+          "type": "peer_stat",
+          "movie_title": "Buena Vista Social Club",
+          "value": 4.5,
+          "label": "supported",
+          "evidence_id": "H7.search_by_description#0",
+          "reason": "Tool output says the 4 people most like the user rated it 4.5★ on average."
+        },
+        {
+          "text": "The user's wheelhouse includes musical/children's.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H1.get_user_profile#0",
+          "reason": "User profile shows Musical avg 4.722/deviation +0.413 and Children avg 4.414/deviation +0.105, both high-confidence strengths."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t1",
+      "turn": 1,
+      "intent": null,
+      "user_id": 10,
+      "answer": "You've got four genres sitting totally untouched: Horror, Western, Documentary and Film-Noir — zero ratings in any of them. Horror's the big one, since it makes up close to a tenth of what's out there.\n\nWant me to pull a pick or two from one of those, maybe something that leans toward stuff you already love?",
+      "claims": [
+        {
+          "text": "The user has zero ratings in Horror.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": 0.0,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "The tool output lists Horror with n_ratings = 0."
+        },
+        {
+          "text": "The user has zero ratings in Western.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": 0.0,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "The tool output lists Western with n_ratings = 0."
+        },
+        {
+          "text": "The user has zero ratings in Documentary.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": 0.0,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "The tool output lists Documentary with n_ratings = 0."
+        },
+        {
+          "text": "The user has zero ratings in Film-Noir.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": 0.0,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "The tool output lists Film-Noir with n_ratings = 0."
+        },
+        {
+          "text": "Horror makes up close to a tenth of the movies out there.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_blind_spots#0",
+          "reason": "Horror has catalog_share 0.0958, which is close to one tenth."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t2",
+      "turn": 2,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Horror it is — and the pick that stands out is **Paranormal Activity** (2009). A couple records their bedroom every night to catch whatever's haunting her, and the footage gets worse and worse. It sits at 3.8★ overall, and the person with taste closest to yours gave it a full 5★ — so of the horror out there, this is the one most likely to land with you.\n\nIf you'd rather go the slasher route, **Friday the 13th** (1980) is the classic camp-counselors-get-picked-off one — but fair warning, it averages 2.6★ and the folks like you who've seen it only gave it 2.8★, so I'd rate it the riskier try. **Sinister** is another option, though nobody with your taste has rated it yet, so I've got nothing to go on there.\n\nWant me to try a Western or a documentary next, or dig deeper into horror?",
+      "claims": [
+        {
+          "text": "Paranormal Activity is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result lists 'Paranormal Activity' as a movie title."
+        },
+        {
+          "text": "Paranormal Activity is from 2009.",
+          "type": "movie_ref",
+          "movie_title": "Paranormal Activity",
+          "value": 2009.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result gives Paranormal Activity's year as 2009."
+        },
+        {
+          "text": "Paranormal Activity is a horror movie.",
+          "type": "movie_ref",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result lists its genres as Horror and Thriller."
+        },
+        {
+          "text": "Paranormal Activity is about a couple who records their bedroom every night to catch whatever is haunting her.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The plot describes Katie and Micah recording their bedroom nightly because Katie believes she is haunted."
+        },
+        {
+          "text": "In Paranormal Activity, the footage gets worse and worse.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The plot says the paranormal phenomena worsen as Micah taunts the demon."
+        },
+        {
+          "text": "Paranormal Activity sits at 3.8★ overall.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": 3.8,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result gives Paranormal Activity's mean_rating as 3.8."
+        },
+        {
+          "text": "The person with taste closest to the user gave Paranormal Activity a full 5★.",
+          "type": "peer_stat",
+          "movie_title": "Paranormal Activity",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The similar_users field says the one person most like the user rated it 5.0★."
+        },
+        {
+          "text": "Of the horror movies, Paranormal Activity is the one most likely to land with the user.",
+          "type": "prediction",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Among the returned horror options, Paranormal Activity has the highest mean rating and a 5.0★ from the closest similar user."
+        },
+        {
+          "text": "Friday the 13th is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Friday the 13th",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result lists 'Friday the 13th' as a movie title."
+        },
+        {
+          "text": "Friday the 13th is from 1980.",
+          "type": "movie_ref",
+          "movie_title": "Friday the 13th",
+          "value": 1980.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result gives Friday the 13th's year as 1980."
+        },
+        {
+          "text": "Friday the 13th is a slasher movie.",
+          "type": "movie_ref",
+          "movie_title": "Friday the 13th",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The tool result lists genres Horror, Mystery, and Thriller, but not 'slasher'; that label is general movie knowledge."
+        },
+        {
+          "text": "Friday the 13th is a classic.",
+          "type": "qualitative",
+          "movie_title": "Friday the 13th",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "'Classic' is a general reputation claim not present in the tool output."
+        },
+        {
+          "text": "Friday the 13th is about camp counselors getting picked off.",
+          "type": "qualitative",
+          "movie_title": "Friday the 13th",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The plot describes camp counselors at Crystal Lake being murdered one by one."
+        },
+        {
+          "text": "Friday the 13th averages 2.6★.",
+          "type": "qualitative",
+          "movie_title": "Friday the 13th",
+          "value": 2.6,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result gives Friday the 13th's mean_rating as 2.6."
+        },
+        {
+          "text": "Similar users who have seen Friday the 13th gave it 2.8★.",
+          "type": "peer_stat",
+          "movie_title": "Friday the 13th",
+          "value": 2.8,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The similar_users field says the 3 people most like the user rated it 2.8★ on average."
+        },
+        {
+          "text": "Some similar users have seen Friday the 13th.",
+          "type": "peer_stat",
+          "movie_title": "Friday the 13th",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The similar_users field explicitly refers to people most like the user who have seen it."
+        },
+        {
+          "text": "Friday the 13th is the riskier try.",
+          "type": "prediction",
+          "movie_title": "Friday the 13th",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Friday the 13th has lower mean and similar-user ratings than Paranormal Activity, so calling it the riskier try follows from the evidence."
+        },
+        {
+          "text": "Sinister is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Sinister",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The tool result lists 'Sinister' as a movie title."
+        },
+        {
+          "text": "Nobody with the user's taste has rated Sinister yet.",
+          "type": "peer_stat",
+          "movie_title": "Sinister",
+          "value": 0.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "The similar_users field says no one with taste like the user's has rated Sinister yet."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t3",
+      "turn": 3,
+      "intent": null,
+      "user_id": 10,
+      "answer": "So here's the fuller picture. Paranormal Activity's the found-footage one — Katie and Micah set up a camera in their bedroom to catch the thing that's been following her, and each night the activity escalates while he keeps poking at it against all advice. It sits at 3.8★ overall, and the one person whose taste tracks yours rated it 5★.\n\nThat's the good news. The catch: looking at your whole history, your taste suggests you'd land around 2.6★ on it — you're a steady middle-of-the-road rater, and horror-ish, tension-heavy stuff is where you tend to dip. So the signals genuinely point both ways, and I'd call this a low-confidence pick rather than a sure thing. If you generally go for the thrill-ride side of movies, it's worth a shot; if dread isn't your thing, it may fall flat.\n\nWant me to line up a Western or documentary pick as a safer contrast?",
+      "claims": [
+        {
+          "text": "Paranormal Activity is the found-footage one.",
+          "type": "movie_ref",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.search_by_description#1",
+          "reason": "The plot describes the couple mounting a video camera to record nightly activity, i.e. the found-footage premise."
+        },
+        {
+          "text": "In Paranormal Activity, Katie and Micah set up a camera in their bedroom to catch the thing that's been following her.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.search_by_description#1",
+          "reason": "Plot: Katie believes an evil presence follows her and Micah mounts a video camera in their bedroom to record activity."
+        },
+        {
+          "text": "In Paranormal Activity, something has been following Katie.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.search_by_description#1",
+          "reason": "Plot states Katie believes the presence haunting her since childhood is still following her."
+        },
+        {
+          "text": "In Paranormal Activity, each night the activity escalates.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.search_by_description#1",
+          "reason": "Plot recounts escalating nightly phenomena (footsteps, door moving, thumps, etc.)."
+        },
+        {
+          "text": "In Paranormal Activity, Micah keeps poking at the activity against all advice.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.search_by_description#1",
+          "reason": "Plot: Dr. Fredrichs advises not to taunt the demon, yet Micah begins to taunt it."
+        },
+        {
+          "text": "Paranormal Activity sits at 3.8★ overall.",
+          "type": "qualitative",
+          "movie_title": "Paranormal Activity",
+          "value": 3.8,
+          "label": "supported",
+          "evidence_id": "H2.search_by_description#1",
+          "reason": "mean_rating for Paranormal Activity is 3.8."
+        },
+        {
+          "text": "1 similar user whose taste tracks the user's rated Paranormal Activity.",
+          "type": "peer_stat",
+          "movie_title": "Paranormal Activity",
+          "value": 1.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "n_similar_raters is 1."
+        },
+        {
+          "text": "That similar user rated Paranormal Activity 5★.",
+          "type": "peer_stat",
+          "movie_title": "Paranormal Activity",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The single similar rater (user 432) gave rating 5.0."
+        },
+        {
+          "text": "The user's taste suggests they would land around 2.6★ on Paranormal Activity.",
+          "type": "prediction",
+          "movie_title": "Paranormal Activity",
+          "value": 2.6,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Assessment reason: 'Across your whole rating history, you would likely rate it about 2.6★.'"
+        },
+        {
+          "text": "The user is a steady middle-of-the-road rater.",
+          "type": "user_stat",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Assessment reason: 'You are a middle-of-the-road rater (3.2★ on average).'"
+        },
+        {
+          "text": "The user tends to dip on horror-ish, tension-heavy stuff.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Tension-heavy genres sit below the user's 3.23 average (Thriller 2.917, Crime 2.833, Mystery 3.0)."
+        },
+        {
+          "text": "The signals for Paranormal Activity genuinely point both ways.",
+          "type": "prediction",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Confidence text: 'The signals are mixed; this is not a confident call either way.'"
+        },
+        {
+          "text": "The pick is low-confidence rather than a sure thing.",
+          "type": "prediction",
+          "movie_title": "Paranormal Activity",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "Confidence level is 'low'."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t4",
+      "turn": 4,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Here's the Western that fits you best: **Dances with Wolves** (1990). A Union soldier asks to be posted to the frontier, ends up alone at an abandoned fort, and slowly builds a life with the neighboring Sioux. You tend to love Adventure (that's one of your strongest genres), and the folks with taste like yours who've seen it gave it 3.7★ — about as safe as a Western's going to get for you.\n\nTwo runners-up: **Butch Cassidy and the Sundance Kid** (1969) is the fun, banter-heavy one about two outlaws on the run — 3.9★ overall, though your taste-alikes were cooler on it at 3.3★. And the original **3:10 to Yuma** (1957) is a tense little hostage-escort story sitting at 4.0★ overall, but nobody with your taste has rated it, so that one's a blind guess.\n\nWant me to close it out with a documentary pick?",
+      "claims": [
+        {
+          "text": "Dances with Wolves is the Western that fits the user best.",
+          "type": "prediction",
+          "movie_title": "Dances with Wolves",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Dances with Wolves has the highest similar-user average (3.7★) among the Westerns with peer data, and the user profile shows Adventure as a strong genre."
+        },
+        {
+          "text": "Dances with Wolves (1990) is a Western movie.",
+          "type": "movie_ref",
+          "movie_title": "Dances with Wolves",
+          "value": 1990.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool result lists Dances with Wolves (1990) with genre Western."
+        },
+        {
+          "text": "In Dances with Wolves, a Union soldier asks to be posted to the frontier.",
+          "type": "qualitative",
+          "movie_title": "Dances with Wolves",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot says Dunbar requests a transfer to the western frontier."
+        },
+        {
+          "text": "In Dances with Wolves, the Union soldier ends up alone at an abandoned fort.",
+          "type": "qualitative",
+          "movie_title": "Dances with Wolves",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot says he finds Fort Sedgwick abandoned and elects to stay and man it himself."
+        },
+        {
+          "text": "In Dances with Wolves, the Union soldier slowly builds a life with the neighboring Sioux.",
+          "type": "qualitative",
+          "movie_title": "Dances with Wolves",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot describes him building rapport, being accepted, and marrying into the Sioux."
+        },
+        {
+          "text": "The user tends to love Adventure.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Profile shows Adventure avg_rating 3.654, deviation +0.424, confidence high."
+        },
+        {
+          "text": "Adventure is one of the user's strongest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Adventure is among the top genres by average rating and positive deviation."
+        },
+        {
+          "text": "Similar users with taste like the user's who have seen Dances with Wolves gave it 3.7★.",
+          "type": "peer_stat",
+          "movie_title": "Dances with Wolves",
+          "value": 3.7,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool output states 18 similar users rated Dances with Wolves 3.7★ on average."
+        },
+        {
+          "text": "Dances with Wolves is about as safe as a Western's going to get for the user.",
+          "type": "prediction",
+          "movie_title": "Dances with Wolves",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Dances with Wolves has the highest similar-user average among the Westerns with peer data, supporting the safety claim."
+        },
+        {
+          "text": "Butch Cassidy and the Sundance Kid (1969) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Butch Cassidy and the Sundance Kid",
+          "value": 1969.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool result lists Butch Cassidy and the Sundance Kid (1969)."
+        },
+        {
+          "text": "Butch Cassidy and the Sundance Kid is fun.",
+          "type": "qualitative",
+          "movie_title": "Butch Cassidy and the Sundance Kid",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone 'fun' is not stated in the tool output; it is an external characterization."
+        },
+        {
+          "text": "Butch Cassidy and the Sundance Kid is banter-heavy.",
+          "type": "qualitative",
+          "movie_title": "Butch Cassidy and the Sundance Kid",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone 'banter-heavy' is not stated in the tool output; it is an external characterization."
+        },
+        {
+          "text": "Butch Cassidy and the Sundance Kid is about two outlaws on the run.",
+          "type": "qualitative",
+          "movie_title": "Butch Cassidy and the Sundance Kid",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot describes Butch and Sundance as outlaws pursued and fleeing."
+        },
+        {
+          "text": "Butch Cassidy and the Sundance Kid has an overall rating of 3.9★.",
+          "type": "qualitative",
+          "movie_title": "Butch Cassidy and the Sundance Kid",
+          "value": 3.9,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool output mean_rating is 3.9."
+        },
+        {
+          "text": "The user's taste-alikes were cooler on Butch Cassidy and the Sundance Kid at 3.3★.",
+          "type": "peer_stat",
+          "movie_title": "Butch Cassidy and the Sundance Kid",
+          "value": 3.3,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool output says 7 similar users rated it 3.3★ on average."
+        },
+        {
+          "text": "3:10 to Yuma (1957) is the original movie.",
+          "type": "movie_ref",
+          "movie_title": "3:10 to Yuma",
+          "value": 1957.0,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "'Original' is not in the tool output; it is external knowledge about the film being the earlier version."
+        },
+        {
+          "text": "3:10 to Yuma is tense.",
+          "type": "qualitative",
+          "movie_title": "3:10 to Yuma",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone 'tense' is not stated in the tool output; it is an external characterization."
+        },
+        {
+          "text": "3:10 to Yuma is a hostage-escort story.",
+          "type": "qualitative",
+          "movie_title": "3:10 to Yuma",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot describes escorting captured Ben Wade to Contention City to catch a train."
+        },
+        {
+          "text": "3:10 to Yuma has an overall rating of 4.0★.",
+          "type": "qualitative",
+          "movie_title": "3:10 to Yuma",
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool output mean_rating is 4.0."
+        },
+        {
+          "text": "No user with the user's taste has rated 3:10 to Yuma.",
+          "type": "peer_stat",
+          "movie_title": "3:10 to Yuma",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool output says no one with taste like yours has rated it yet."
+        },
+        {
+          "text": "3:10 to Yuma is a blind guess for the user.",
+          "type": "prediction",
+          "movie_title": "3:10 to Yuma",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "No similar-user ratings supports calling it a blind guess."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t5",
+      "turn": 5,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Got it — no cartoons. Since Adventure's clearly your sweet spot, here's what to try instead:\n\n**Little Miss Sunshine** (2006) — a family road-trips a broken-down van across the country so their kid can compete in a beauty pageant. Warm, funny, and people with taste like yours gave it 4.0★.\n\n**Into the Wild** (2007) — a young grad ditches everything to live off the Alaskan wilderness. Same crowd rated it a strong 4.2★, one of your best-fitting picks.\n\n**O Brother, Where Art Thou?** (2000) — three escaped convicts chase buried treasure through the 1930s South. Your taste-alikes gave it 4.1★.\n\nIf you want more of a Bond fix, **Die Another Day** (2002) is an easy watch — your taste-alikes gave it 3.8★ even though it sits at just 3.1★ overall.\n\nWant me to dig up more straight-up Action, or keep it in the Adventure lane?",
+      "claims": [
+        {
+          "text": "The user does not want cartoons.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.user",
+          "reason": "The user said they are tired of animated movies, which matches not wanting cartoons."
+        },
+        {
+          "text": "Adventure is the user's sweet spot.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "The profile shows Adventure rated above the user's average and the taste summary calls it a strong genre."
+        },
+        {
+          "text": "Little Miss Sunshine is a 2006 movie.",
+          "type": "movie_ref",
+          "movie_title": "Little Miss Sunshine",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool output lists Little Miss Sunshine with year 2006."
+        },
+        {
+          "text": "Little Miss Sunshine is about a family road-tripping a broken-down van across the country so their kid can compete in a beauty pageant.",
+          "type": "qualitative",
+          "movie_title": "Little Miss Sunshine",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot describes a family road trip in a broken-down van to a beauty pageant."
+        },
+        {
+          "text": "Little Miss Sunshine is warm.",
+          "type": "qualitative",
+          "movie_title": "Little Miss Sunshine",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Warmth is a tone descriptor not present in the tool data."
+        },
+        {
+          "text": "Little Miss Sunshine is funny.",
+          "type": "qualitative",
+          "movie_title": "Little Miss Sunshine",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool output lists Comedy among Little Miss Sunshine's genres."
+        },
+        {
+          "text": "People with taste like the user's gave Little Miss Sunshine 4.0★.",
+          "type": "peer_stat",
+          "movie_title": "Little Miss Sunshine",
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The similar-users field says the 10 most similar users rated it 4.0★ on average."
+        },
+        {
+          "text": "Into the Wild is a 2007 movie.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool output lists Into the Wild with year 2007."
+        },
+        {
+          "text": "Into the Wild is about a young grad who ditches everything to live off the Alaskan wilderness.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot describes a young graduate rejecting conventional life and going to the Alaskan wilderness."
+        },
+        {
+          "text": "The same crowd rated Into the Wild 4.2★.",
+          "type": "peer_stat",
+          "movie_title": "Into the Wild",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The similar-users field says the 10 most similar users rated it 4.2★ on average."
+        },
+        {
+          "text": "Into the Wild is one of the user's best-fitting picks.",
+          "type": "prediction",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "The tool output gives a 4.2★ peer average but does not rank it as one of the user's best-fitting picks."
+        },
+        {
+          "text": "O Brother, Where Art Thou? is a 2000 movie.",
+          "type": "movie_ref",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool output lists O Brother, Where Art Thou? with year 2000."
+        },
+        {
+          "text": "O Brother, Where Art Thou? is about three escaped convicts chasing buried treasure through the 1930s South.",
+          "type": "qualitative",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot describes three escaped convicts in 1937 seeking buried treasure."
+        },
+        {
+          "text": "The user's taste-alikes gave O Brother, Where Art Thou? 4.1★.",
+          "type": "peer_stat",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The similar-users field says the 16 most similar users rated it 4.1★ on average."
+        },
+        {
+          "text": "Die Another Day is a 2002 movie.",
+          "type": "movie_ref",
+          "movie_title": "Die Another Day",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool output lists Die Another Day with year 2002."
+        },
+        {
+          "text": "Die Another Day is an easy watch.",
+          "type": "qualitative",
+          "movie_title": "Die Another Day",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Being an easy watch is a subjective tone/experience claim not present in the tool data."
+        },
+        {
+          "text": "The user's taste-alikes gave Die Another Day 3.8★.",
+          "type": "peer_stat",
+          "movie_title": "Die Another Day",
+          "value": 3.8,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The similar-users field says the 7 most similar users rated it 3.8★ on average."
+        },
+        {
+          "text": "Die Another Day sits at just 3.1★ overall.",
+          "type": "peer_stat",
+          "movie_title": "Die Another Day",
+          "value": 3.1,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool output lists Die Another Day's mean_rating as 3.1."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t6",
+      "turn": 6,
+      "intent": null,
+      "user_id": 10,
+      "answer": "If I had to pick one: **Into the Wild**. People with taste like yours gave it 4.2★ — the highest of the bunch — and it lands squarely in Adventure, which is one of your strongest genres. A young guy walks away from everything to live off the Alaskan wild; it's the pick most likely to actually click with you.\n\nClose second is **O Brother, Where Art Thou?** at 4.1★ from your taste-alikes, if you'd rather have something lighter and funnier.",
+      "claims": [
+        {
+          "text": "Into the Wild is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The tool output lists Into the Wild as a movie title."
+        },
+        {
+          "text": "People with taste like the user's gave Into the Wild 4.2★.",
+          "type": "peer_stat",
+          "movie_title": "Into the Wild",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The similar_users field for Into the Wild says 4.2★ from the 10 most similar users."
+        },
+        {
+          "text": "Into the Wild received the highest rating of the bunch from people with taste like the user's.",
+          "type": "peer_stat",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.answer; H5.recommend_for_user#0",
+          "reason": "Among the four movies listed in the prior answer, Into the Wild has the highest taste-alike rating (4.2★ vs 4.0, 4.1, 3.8)."
+        },
+        {
+          "text": "Into the Wild is in the Adventure genre.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The tool output lists Into the Wild's genres as Action, Adventure, Drama."
+        },
+        {
+          "text": "Adventure is one of the user's strongest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Adventure has a high confidence and a positive deviation (0.424) in the user's genre preferences."
+        },
+        {
+          "text": "In Into the Wild, a young guy walks away from everything to live off the Alaskan wild.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The plot summary in the tool output describes McCandless rejecting conventional life and heading into the Alaskan wilderness."
+        },
+        {
+          "text": "Into the Wild is the pick most likely to actually click with the user.",
+          "type": "prediction",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No evidence field states a likelihood-to-click prediction; it is the assistant's own inference from ratings and genre."
+        },
+        {
+          "text": "O Brother, Where Art Thou? is a movie.",
+          "type": "movie_ref",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The tool output lists O Brother, Where Art Thou? as a movie title."
+        },
+        {
+          "text": "The user's taste-alikes gave O Brother, Where Art Thou? 4.1★.",
+          "type": "peer_stat",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The similar_users field for O Brother, Where Art Thou? says 4.1★ from the 16 most similar users."
+        },
+        {
+          "text": "O Brother, Where Art Thou? is lighter than Into the Wild.",
+          "type": "qualitative",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The relative lightness/tone of the two films is not stated in the tool data."
+        },
+        {
+          "text": "O Brother, Where Art Thou? is funnier than Into the Wild.",
+          "type": "qualitative",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The comparative funniness/tone of the two films is not stated in the tool data."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t7",
+      "turn": 7,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Here's what's behind that pick. Into the Wild is Action, Adventure and Drama, and Adventure is one of your standout genres — you rate it well above your own average, and that's a high-confidence read, so it's not a guess. The people whose taste lines up most with yours gave it 4.2★, which is the strongest of everything I pulled for you. And it sits at 3.8★ overall, so it's well-liked beyond just your crowd.\n\nThe one thing worth flagging: it leans more Drama than pure adventure — a soul-searching, slower burn rather than a thrill ride — and Drama's a genre you tend to be a touch cooler on. So if you want the ride more than the reflection, O Brother, Where Art Thou? is the safer swing. Want me to check how it lines up against a couple more Adventure picks?",
+      "claims": [
+        {
+          "text": "Into the Wild is an Action movie.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "Tool output lists Action among Into the Wild's genres."
+        },
+        {
+          "text": "Into the Wild is an Adventure movie.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "Tool output lists Adventure among Into the Wild's genres."
+        },
+        {
+          "text": "Into the Wild is a Drama movie.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "Tool output lists Drama among Into the Wild's genres."
+        },
+        {
+          "text": "Adventure is one of the user's standout genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Profile shows Adventure avg 3.654, deviation +0.424, and taste_summary calls it above the user's average."
+        },
+        {
+          "text": "The user rates Adventure well above their own average.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Adventure avg 3.654 vs user average 3.23, with deviation +0.424."
+        },
+        {
+          "text": "The assessment that Adventure is a standout genre for the user is high-confidence.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Adventure genre preference has confidence 'high'."
+        },
+        {
+          "text": "The similar users whose taste lines up most with the user's gave Into the Wild 4.2★.",
+          "type": "peer_stat",
+          "movie_title": "Into the Wild",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "similar_users field says the 10 people most like the user rated it 4.2★ on average."
+        },
+        {
+          "text": "The 4.2★ similar-user rating for Into the Wild is the strongest of everything the assistant pulled for the user.",
+          "type": "peer_stat",
+          "movie_title": "Into the Wild",
+          "value": 4.2,
+          "label": "contradicted",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "Tool output also includes Never Say Never Again with a 5.0★ similar-user rating, higher than 4.2★."
+        },
+        {
+          "text": "Into the Wild has an overall rating of 3.8★.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": 3.8,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "mean_rating for Into the Wild is 3.8."
+        },
+        {
+          "text": "Into the Wild is well-liked beyond just the user's crowd.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "Overall mean_rating 3.8 indicates positive general reception beyond the user's crowd."
+        },
+        {
+          "text": "Into the Wild leans more toward Drama than pure adventure.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "Evidence lists genres but does not state which genre dominates or that it leans more Drama than Adventure."
+        },
+        {
+          "text": "Into the Wild is a soul-searching movie.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "Plot summary describes his process of self-realization, matching a soul-searching description."
+        },
+        {
+          "text": "Into the Wild is a slower burn rather than a thrill ride.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No evidence about pacing or whether it is a 'slower burn' rather than a 'thrill ride'."
+        },
+        {
+          "text": "The user tends to be a touch cooler on Drama.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Drama deviation is -0.083, slightly below the user's average."
+        },
+        {
+          "text": "O Brother, Where Art Thou? is a recommended movie.",
+          "type": "movie_ref",
+          "movie_title": "O Brother, Where Art Thou?",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "O Brother, Where Art Thou? appears in the recommend_for_user results."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t8",
+      "turn": 8,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Fresh one for you: **Gone with the Wind** (1939). A Southern belle's life gets torn apart by the Civil War, and it's loaded with Romance and War — Romance is the genre you've watched the most, and War's one of your strongest. It sits at 3.7★ overall, but people with taste like yours gave it a big 4.7★. That's a standout.\n\nAnd if you want something quieter, **Before Sunrise** (1995) is two strangers who meet on a train and spend one night wandering Vienna together — 4.0★ overall, and your taste-alikes loved it at 5.0★.\n\nWant me to put Gone with the Wind up against Into the Wild so you can pick between them?",
+      "claims": [
+        {
+          "text": "Gone with the Wind is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Gone with the Wind",
+          "value": 1939.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result lists 'Gone with the Wind' as a movie title."
+        },
+        {
+          "text": "Gone with the Wind was released in 1939.",
+          "type": "movie_ref",
+          "movie_title": "Gone with the Wind",
+          "value": 1939.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result gives Gone with the Wind's year as 1939."
+        },
+        {
+          "text": "Gone with the Wind has genre Romance.",
+          "type": "movie_ref",
+          "movie_title": "Gone with the Wind",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result lists Romance among its genres."
+        },
+        {
+          "text": "Gone with the Wind has genre War.",
+          "type": "movie_ref",
+          "movie_title": "Gone with the Wind",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result lists War among its genres."
+        },
+        {
+          "text": "Gone with the Wind is about a Southern belle whose life gets torn apart by the Civil War.",
+          "type": "qualitative",
+          "movie_title": "Gone with the Wind",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot summary describes Scarlett O'Hara on a Southern plantation during the Civil War."
+        },
+        {
+          "text": "Romance is the genre the user has watched the most.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Romance has the highest n_ratings (44) in the user's genre preferences."
+        },
+        {
+          "text": "War is one of the user's strongest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "War has a high average rating (4.0) and positive deviation (0.77) in the profile."
+        },
+        {
+          "text": "Gone with the Wind has an overall rating of 3.7★.",
+          "type": "qualitative",
+          "movie_title": "Gone with the Wind",
+          "value": 3.7,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result gives Gone with the Wind's mean_rating as 3.7."
+        },
+        {
+          "text": "People with taste like the user's gave Gone with the Wind a rating of 4.7★.",
+          "type": "peer_stat",
+          "movie_title": "Gone with the Wind",
+          "value": 4.7,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result says the 6 most similar users rated it 4.7★ on average."
+        },
+        {
+          "text": "Before Sunrise is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Before Sunrise",
+          "value": 1995.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result lists 'Before Sunrise' as a movie title."
+        },
+        {
+          "text": "Before Sunrise was released in 1995.",
+          "type": "movie_ref",
+          "movie_title": "Before Sunrise",
+          "value": 1995.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result gives Before Sunrise's year as 1995."
+        },
+        {
+          "text": "Before Sunrise is about two strangers who meet on a train and spend one night wandering Vienna together.",
+          "type": "qualitative",
+          "movie_title": "Before Sunrise",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot summary describes Jesse and Céline meeting on a train and roaming Vienna together."
+        },
+        {
+          "text": "Before Sunrise is quieter.",
+          "type": "qualitative",
+          "movie_title": "Before Sunrise",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The claim about Before Sunrise being 'quieter' is a tone characterization not present in the tool data."
+        },
+        {
+          "text": "Before Sunrise has an overall rating of 4.0★.",
+          "type": "qualitative",
+          "movie_title": "Before Sunrise",
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result gives Before Sunrise's mean_rating as 4.0."
+        },
+        {
+          "text": "The user's taste-alikes loved Before Sunrise at 5.0★.",
+          "type": "peer_stat",
+          "movie_title": "Before Sunrise",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result says the 5 most similar users rated it 5.0★ on average."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t9",
+      "turn": 9,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Plenty more. A few that jump out:\n\n**The Princess Bride** (1987) — a swashbuckling fairy-tale romp with sword fights, true love and a giant. It's an Adventure-Romance-Comedy mix, sitting at 4.2★ overall and your taste-alikes gave it 4.1★. Honestly the safest bet of this batch.\n\n**Pirates of the Caribbean: The Curse of the Black Pearl** (2003) — cursed gold, ghost pirates and Johnny Depp's Jack Sparrow. 3.8★ overall, and folks like you rated it 3.9★.\n\n**Lawrence of Arabia** (1962) — a sweeping desert epic about a British officer rallying the Arab revolt in WWI. We're in Adventure *and* War territory, two of your best genres, with 4.4★ overall and 4.1★ from your taste-alikes.\n\nIf you want a heavier war gut-punch, **Saving Private Ryan** (1998) is the D-Day mission to bring one soldier home — 4.1★ overall.\n\nWant me to stack The Princess Bride and Lawrence of Arabia against Into the Wild so you've got a shortlist?",
+      "claims": [
+        {
+          "text": "The Princess Bride (1987) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "The Princess Bride",
+          "value": 1987.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool result lists 'Princess Bride, The' (1987)."
+        },
+        {
+          "text": "The Princess Bride has genres Adventure, Romance, and Comedy.",
+          "type": "movie_ref",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Genres include Adventure, Comedy, and Romance."
+        },
+        {
+          "text": "The Princess Bride is a swashbuckling fairy-tale romp.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone/characterization not stated in the tool data."
+        },
+        {
+          "text": "The Princess Bride features sword fights.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot mentions a master fencer and a duel."
+        },
+        {
+          "text": "The Princess Bride features true love.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Romance genre and the love-story plot support this."
+        },
+        {
+          "text": "The Princess Bride features a giant.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot mentions Fezzik as a Turkish giant."
+        },
+        {
+          "text": "The Princess Bride has a 4.2★ overall rating.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "mean_rating is 4.2."
+        },
+        {
+          "text": "The Princess Bride has a 4.1★ rating from the user's taste-alikes.",
+          "type": "peer_stat",
+          "movie_title": "The Princess Bride",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "similar_users says the 20 most similar users rated it 4.1★ on average."
+        },
+        {
+          "text": "The Princess Bride is the safest bet of this batch.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "No field states it is the safest bet; this is an evaluative recommendation."
+        },
+        {
+          "text": "Pirates of the Caribbean: The Curse of the Black Pearl (2003) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "value": 2003.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Tool result lists 'Pirates of the Caribbean: The Curse of the Black Pearl' (2003)."
+        },
+        {
+          "text": "Pirates of the Caribbean: The Curse of the Black Pearl features cursed gold.",
+          "type": "qualitative",
+          "movie_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot mentions Aztec gold and a curse."
+        },
+        {
+          "text": "Pirates of the Caribbean: The Curse of the Black Pearl features ghost pirates.",
+          "type": "qualitative",
+          "movie_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "Plot mentions a ghostly pirate ship and cursed skeletal pirates."
+        },
+        {
+          "text": "Pirates of the Caribbean: The Curse of the Black Pearl features Johnny Depp's Jack Sparrow.",
+          "type": "qualitative",
+          "movie_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Jack Sparrow is in the plot, but Johnny Depp as actor is not in the tool data."
+        },
+        {
+          "text": "Pirates of the Caribbean: The Curse of the Black Pearl has a 3.8★ overall rating.",
+          "type": "qualitative",
+          "movie_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "value": 3.8,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "mean_rating is 3.8."
+        },
+        {
+          "text": "Pirates of the Caribbean: The Curse of the Black Pearl has a 3.9★ rating from people like the user.",
+          "type": "peer_stat",
+          "movie_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "value": 3.9,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#0",
+          "reason": "similar_users says the 20 most similar users rated it 3.9★ on average."
+        },
+        {
+          "text": "Lawrence of Arabia (1962) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Lawrence of Arabia",
+          "value": 1962.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Tool result lists 'Lawrence of Arabia' (1962)."
+        },
+        {
+          "text": "Lawrence of Arabia has genres Adventure and War.",
+          "type": "movie_ref",
+          "movie_title": "Lawrence of Arabia",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Genres include Adventure and War."
+        },
+        {
+          "text": "Lawrence of Arabia is a sweeping desert epic.",
+          "type": "qualitative",
+          "movie_title": "Lawrence of Arabia",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone/characterization not stated in the tool data."
+        },
+        {
+          "text": "Lawrence of Arabia is about a British officer.",
+          "type": "qualitative",
+          "movie_title": "Lawrence of Arabia",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Plot describes T. E. Lawrence as a British Army lieutenant."
+        },
+        {
+          "text": "Lawrence of Arabia is about rallying the Arab revolt in WWI.",
+          "type": "qualitative",
+          "movie_title": "Lawrence of Arabia",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Plot describes WWI and the Arab revolt against the Turks."
+        },
+        {
+          "text": "Adventure is one of the user's best genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Profile shows Adventure with positive deviation and high confidence; taste_summary says Adventure is rated above average."
+        },
+        {
+          "text": "War is one of the user's best genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Profile shows War with positive deviation; taste_summary says War is rated above average."
+        },
+        {
+          "text": "Lawrence of Arabia has a 4.4★ overall rating.",
+          "type": "qualitative",
+          "movie_title": "Lawrence of Arabia",
+          "value": 4.4,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "mean_rating is 4.4."
+        },
+        {
+          "text": "Lawrence of Arabia has a 4.1★ rating from the user's taste-alikes.",
+          "type": "peer_stat",
+          "movie_title": "Lawrence of Arabia",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "similar_users says the 6 most similar users rated it 4.1★ on average."
+        },
+        {
+          "text": "Saving Private Ryan (1998) is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Saving Private Ryan",
+          "value": 1998.0,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Tool result lists 'Saving Private Ryan' (1998)."
+        },
+        {
+          "text": "Saving Private Ryan is about the D-Day mission to bring one soldier home.",
+          "type": "qualitative",
+          "movie_title": "Saving Private Ryan",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "Plot describes the D-Day search to find and send Ryan home."
+        },
+        {
+          "text": "Saving Private Ryan is a heavier war gut-punch.",
+          "type": "qualitative",
+          "movie_title": "Saving Private Ryan",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "Tone/characterization not stated in the tool data."
+        },
+        {
+          "text": "Saving Private Ryan has a 4.1★ overall rating.",
+          "type": "qualitative",
+          "movie_title": "Saving Private Ryan",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "T.search_by_description#1",
+          "reason": "mean_rating is 4.1."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t10",
+      "turn": 10,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Good instinct — it's a fun, warm-hearted pick, and I can give you a fuller read on it now. Your most similar movie-watchers gave it 4.1★ on average, with a handful of them at 4.5 and a full 5★, and the plot's closer to stuff you liked than stuff you didn't.\n\nThe honest caveat: the movies in your history most similar to it, you rated about a quarter-star *below* your own average, and you're a steady middle-of-the-road rater — so the signals genuinely split both ways and it's not a confident call. Nothing in it clashes with your tastes, though — no avoided genres in play — and Adventure, its main genre, is one of your strongest.\n\nNet: a reasonable swing with real upside, just not a guaranteed home run. Want me to check how it sits against Into the Wild one more time so you've got your two finalists side by side?",
+      "claims": [
+        {
+          "text": "The movie under discussion is a fun, warm-hearted pick.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "“Fun, warm-hearted” is a tone/characterization not stated in the tool data."
+        },
+        {
+          "text": "The user's most similar movie-watchers gave the movie under discussion 4.1★ on average.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The assessment reason says 20 similar users rated it 4.1★ on average."
+        },
+        {
+          "text": "A handful of the user's most similar movie-watchers gave the movie under discussion 4.5★.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 4.5,
+          "label": "unsupported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The tool shows only one similar rater at 4.5★, not a handful."
+        },
+        {
+          "text": "A handful of the user's most similar movie-watchers gave the movie under discussion a full 5★.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 5.0,
+          "label": "unsupported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The tool shows only one similar rater at 5.0★, not a handful."
+        },
+        {
+          "text": "The plot of the movie under discussion is closer to stuff the user liked than stuff the user didn't like.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The plot signal says its plot is closer to movies the user liked than disliked."
+        },
+        {
+          "text": "The user rated the movies in their history most similar to the movie under discussion about a quarter-star below their own average.",
+          "type": "user_stat",
+          "movie_title": null,
+          "value": 0.25,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The similar-movies signal says the user rated those movies -0.2★ vs their average, approximately a quarter-star below."
+        },
+        {
+          "text": "The user is a steady middle-of-the-road rater.",
+          "type": "user_stat",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The rating-habits signal says the user is a middle-of-the-road rater at 3.2★ on average."
+        },
+        {
+          "text": "The signals for the movie under discussion genuinely split both ways.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The confidence text says the signals are mixed."
+        },
+        {
+          "text": "The prediction for the movie under discussion is not a confident call.",
+          "type": "prediction",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The confidence level is low and the text says it is not a confident call either way."
+        },
+        {
+          "text": "Nothing in the movie under discussion clashes with the user's tastes.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The tool shows avoided_genres_matched as empty, so no avoided genre clashes."
+        },
+        {
+          "text": "No avoided genres are in play for the movie under discussion.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The tool shows avoided_genres_matched as empty."
+        },
+        {
+          "text": "Adventure is the main genre of the movie under discussion.",
+          "type": "movie_ref",
+          "movie_title": null,
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": null,
+          "reason": "The tool lists Adventure among several genres but does not identify a main genre."
+        },
+        {
+          "text": "Adventure is one of the user's strongest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "The profile shows Adventure with a positive deviation and high confidence."
+        },
+        {
+          "text": "The movie under discussion is a reasonable swing with real upside.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The mixed signals with some positive evidence support calling it a reasonable swing with upside."
+        },
+        {
+          "text": "The movie under discussion is not a guaranteed home run.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The low-confidence, mixed-signal assessment supports saying it is not a guaranteed home run."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t11",
+      "turn": 11,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Here's the head-to-head:\n\n**Into the Wild** — your most similar watchers gave it 4.2★ on average, and the films in your history most like it (Walk the Line, Intouchables, Juno) you rated a solid half-star *above* your own average. That's the key difference: the closest matches to it are ones you genuinely liked.\n\n**The Princess Bride** — similar watchers gave it 4.1★, so basically even on that front. But the films most similar to *it* you rated a bit *below* your average, which drags it down.\n\nSo both are low-confidence calls, but Into the Wild has the stronger tailwind — its lookalikes are movies you personally rated higher. If you're chasing the safer bet, go Into the Wild; if you want the lighter, funnier ride and you're fine with a little more risk, The Princess Bride is a fine call. Want me to grab you one more backup pick in the same lane?",
+      "claims": [
+        {
+          "text": "Into the Wild is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The tool output identifies Into the Wild as a movie with title, year, and genres."
+        },
+        {
+          "text": "The Princess Bride is a movie.",
+          "type": "movie_ref",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H10.get_peer_opinion#0",
+          "reason": "The tool output identifies The Princess Bride as a movie with title, year, and genres."
+        },
+        {
+          "text": "The user's most similar watchers gave Into the Wild 4.2★ on average.",
+          "type": "peer_stat",
+          "movie_title": "Into the Wild",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "H5.recommend_for_user#0",
+          "reason": "The tool output says the 10 people most like the user rated Into the Wild 4.2★ on average."
+        },
+        {
+          "text": "Walk the Line is in the user's history.",
+          "type": "user_rating",
+          "movie_title": "Walk the Line",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The assessment reason lists Walk the Line as a movie the user rated."
+        },
+        {
+          "text": "Intouchables is in the user's history.",
+          "type": "user_rating",
+          "movie_title": "Intouchables",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The assessment reason lists Intouchables as a movie the user rated."
+        },
+        {
+          "text": "Juno is in the user's history.",
+          "type": "user_rating",
+          "movie_title": "Juno",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The assessment reason lists Juno as a movie the user rated."
+        },
+        {
+          "text": "Walk the Line is one of the films in the user's history most like Into the Wild.",
+          "type": "qualitative",
+          "movie_title": "Walk the Line",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The similar_movies reason names Walk the Line as one of the movies most like Into the Wild."
+        },
+        {
+          "text": "Intouchables is one of the films in the user's history most like Into the Wild.",
+          "type": "qualitative",
+          "movie_title": "Intouchables",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The similar_movies reason names Intouchables as one of the movies most like Into the Wild."
+        },
+        {
+          "text": "Juno is one of the films in the user's history most like Into the Wild.",
+          "type": "qualitative",
+          "movie_title": "Juno",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The similar_movies reason names Juno as one of the movies most like Into the Wild."
+        },
+        {
+          "text": "The user rated the films in their history most like Into the Wild (Walk the Line, Intouchables, Juno) a solid half-star above their own average.",
+          "type": "user_stat",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The similar_movies reason states the user rated those films +0.5★ vs their average."
+        },
+        {
+          "text": "The closest matches to Into the Wild are movies the user genuinely liked.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The +0.5★ above-average signal supports that the user liked those closest matches."
+        },
+        {
+          "text": "Similar watchers gave The Princess Bride 4.1★.",
+          "type": "peer_stat",
+          "movie_title": "The Princess Bride",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "H10.get_peer_opinion#0",
+          "reason": "The similar_users reason says 20 people with taste like the user rated The Princess Bride 4.1★ on average."
+        },
+        {
+          "text": "The similar-watcher average for The Princess Bride is basically even with the similar-watcher average for Into the Wild.",
+          "type": "peer_stat",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H10.get_peer_opinion#0; T.get_peer_opinion#0",
+          "reason": "The comparable peer averages are 4.1★ for The Princess Bride and 4.2★ for Into the Wild, which is basically even."
+        },
+        {
+          "text": "The user rated the films most similar to The Princess Bride a bit below their own average.",
+          "type": "user_stat",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H10.get_peer_opinion#0",
+          "reason": "The similar_movies reason says the user rated the most similar films -0.2★ vs their average."
+        },
+        {
+          "text": "The user's below-average ratings of films most similar to The Princess Bride drag The Princess Bride down.",
+          "type": "prediction",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H10.get_peer_opinion#0",
+          "reason": "The similar_movies signal is marked as a strong negative signal against The Princess Bride."
+        },
+        {
+          "text": "Into the Wild is a low-confidence call.",
+          "type": "prediction",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The assessment confidence level for Into the Wild is low."
+        },
+        {
+          "text": "The Princess Bride is a low-confidence call.",
+          "type": "prediction",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H10.get_peer_opinion#0",
+          "reason": "The assessment confidence level for The Princess Bride is low."
+        },
+        {
+          "text": "Into the Wild has the stronger tailwind.",
+          "type": "qualitative",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0; H10.get_peer_opinion#0",
+          "reason": "Into the Wild has a positive similar_movies signal, while The Princess Bride has a negative one, so Into the Wild has the stronger tailwind."
+        },
+        {
+          "text": "Into the Wild's lookalikes are movies the user personally rated higher.",
+          "type": "user_stat",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The similar_movies reason says the user rated Into the Wild's lookalikes +0.5★ above their average."
+        },
+        {
+          "text": "The Princess Bride is a lighter, funnier ride.",
+          "type": "qualitative",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "The description of The Princess Bride as a lighter, funnier ride is general movie tone knowledge, not stated in the tool data."
+        },
+        {
+          "text": "The Princess Bride carries a little more risk.",
+          "type": "prediction",
+          "movie_title": "The Princess Bride",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0; H10.get_peer_opinion#0",
+          "reason": "The Princess Bride has a negative similar_movies signal while Into the Wild has a positive one, supporting that it carries more risk."
+        },
+        {
+          "text": "Into the Wild is the safer bet.",
+          "type": "prediction",
+          "movie_title": "Into the Wild",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0; H10.get_peer_opinion#0",
+          "reason": "Into the Wild has the positive similar_movies signal and The Princess Bride the negative one, so Into the Wild is the safer bet."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t12",
+      "turn": 12,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Fresh one for tomorrow: **Back to the Future** (1985). A teenager accidentally gets flung back to 1955 in a DeLorean time machine and has to make sure his parents fall in love so he still exists. It's Adventure and Comedy — two of your biggest genres — sitting at 4.0★ overall, and people with taste like yours gave it 4.2★, one of the strongest marks you've gotten. That's my pick.\n\nIf you'd rather have something quieter and sweeter, **Before Sunrise** (1995) is still on the board — two strangers, one night in Vienna — and your taste-alikes rated it a perfect 5.0★.\n\nWant me to keep digging for something in a totally different lane, like that documentary you've never touched?",
+      "claims": [
+        {
+          "text": "Back to the Future (1985) is an Adventure and Comedy movie.",
+          "type": "movie_ref",
+          "movie_title": "Back to the Future",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result lists Back to the Future (1985) with genres [Adventure, Comedy, Sci-Fi]."
+        },
+        {
+          "text": "In Back to the Future, a teenager accidentally gets flung back to 1955 in a DeLorean time machine.",
+          "type": "qualitative",
+          "movie_title": "Back to the Future",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot in the tool output describes Marty being sent back to November 5, 1955 in the DeLorean time machine."
+        },
+        {
+          "text": "In Back to the Future, the teenager has to make sure his parents fall in love so he still exists.",
+          "type": "qualitative",
+          "movie_title": "Back to the Future",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot states Marty must make his parents fall in love to avoid jeopardizing his family's existence."
+        },
+        {
+          "text": "Adventure is one of the user's biggest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Adventure has avg_rating 3.654, deviation +0.424 and high confidence, one of the user's strongest genres."
+        },
+        {
+          "text": "Comedy is one of the user's biggest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "unsupported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Comedy's deviation is -0.028 (essentially the user's average), so the profile does not show it as one of the user's strongest genres."
+        },
+        {
+          "text": "Back to the Future has an overall rating of 4.0★.",
+          "type": "qualitative",
+          "movie_title": "Back to the Future",
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The tool result gives Back to the Future a mean_rating of 4.0."
+        },
+        {
+          "text": "People with taste like the user gave Back to the Future 4.2★.",
+          "type": "peer_stat",
+          "movie_title": "Back to the Future",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "similar_users field: 'The 20 people most like you who've seen it rated it 4.2★ on average.'"
+        },
+        {
+          "text": "The 4.2★ rating from taste-alike users for Back to the Future is one of the strongest marks the user has gotten.",
+          "type": "user_stat",
+          "movie_title": "Back to the Future",
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "4.2★ is among the highest peer averages seen in the conversation (only 5.0 and 4.7 are higher)."
+        },
+        {
+          "text": "Before Sunrise (1995).",
+          "type": "movie_ref",
+          "movie_title": "Before Sunrise",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Before Sunrise (1995) appears in the tool result with year 1995."
+        },
+        {
+          "text": "Before Sunrise is quieter and sweeter.",
+          "type": "qualitative",
+          "movie_title": "Before Sunrise",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "'Quieter and sweeter' is a tone characterization not stated in the tool data."
+        },
+        {
+          "text": "Before Sunrise is about two strangers spending one night in Vienna.",
+          "type": "qualitative",
+          "movie_title": "Before Sunrise",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "The plot describes Jesse and Céline meeting on a train and roaming Vienna together for one night."
+        },
+        {
+          "text": "The user's taste-alikes rated Before Sunrise a perfect 5.0★.",
+          "type": "peer_stat",
+          "movie_title": "Before Sunrise",
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "similar_users field: 'The 5 people most like you who've seen it rated it 5.0★ on average.'"
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t13",
+      "turn": 13,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Here's the fuller picture. Marty McFly is a teenager whose inventor friend Doc Brown has built a time machine out of a DeLorean, and a chase gone wrong sends Marty thirty years into the past — to 1955, where he accidentally bumps his own teenage parents apart and has to get them back together before he blinks out of existence. Naturally, it's Adventure and Comedy first and foremost, two of your strongest genres.\n\nOn the numbers: it sits at 4.0★ overall, and the watchers most like you gave it a big 4.2★ — a handful of them straight 5★. That's the strongest peer mark of anything I've shown you.\n\nThe honest caveat: it's not a sure thing. The films in your history most similar to it you rated just a touch below your own average, and your overall habits point to about a 3.2★ — so the signals split, and this is a low-confidence call. Still, the upside with your crowd is real and it fits your favourite genres, so it's a genuinely good swing.\n\nWant me to keep it as tomorrow's pick, or line up one alternative to sit beside it?",
+      "claims": [
+        {
+          "text": "Marty McFly is a teenager whose inventor friend Doc Brown has built a time machine out of a DeLorean.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H12.recommend_for_user#0",
+          "reason": "The Back to the Future plot in the tool output states Marty is a teenager, Doc Brown is an inventor, and the time machine is a modified DeLorean."
+        },
+        {
+          "text": "A chase gone wrong sends Marty McFly thirty years into the past, to 1955.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H12.recommend_for_user#0",
+          "reason": "The plot says Marty attempts to escape in the DeLorean, inadvertently activates it, and is transported back to November 5, 1955."
+        },
+        {
+          "text": "In 1955, Marty McFly accidentally bumps his own teenage parents apart and has to get them back together before he blinks out of existence.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H12.recommend_for_user#0",
+          "reason": "The plot says Marty prevents his parents from meeting, jeopardizing his existence, and then tries to set George up with Lorraine."
+        },
+        {
+          "text": "The movie is Adventure and Comedy first and foremost.",
+          "type": "movie_ref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The movie's genres are listed as Adventure, Comedy, and Sci-Fi, so Adventure and Comedy are indeed primary listed genres."
+        },
+        {
+          "text": "Adventure and Comedy are two of the user's strongest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "contradicted",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Adventure is a strong genre for the user, but Comedy has avg_rating 3.202 and deviation -0.028, so it is not one of the user's strongest genres."
+        },
+        {
+          "text": "The movie sits at 4.0★ overall.",
+          "type": "qualitative",
+          "movie_title": null,
+          "value": 4.0,
+          "label": "supported",
+          "evidence_id": "H12.recommend_for_user#0",
+          "reason": "The tool output lists Back to the Future with mean_rating 4.0."
+        },
+        {
+          "text": "The watchers most like the user gave the movie a big 4.2★.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 4.2,
+          "label": "supported",
+          "evidence_id": "H12.recommend_for_user#0",
+          "reason": "The similar_users field says the 20 people most like the user rated it 4.2★ on average."
+        },
+        {
+          "text": "A handful of the watchers most like the user gave the movie straight 5★.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 5.0,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The ratings list includes three similar users who gave it 5.0★."
+        },
+        {
+          "text": "The peer mark of 4.2★ is the strongest peer mark of anything the assistant has shown the user.",
+          "type": "peer_stat",
+          "movie_title": null,
+          "value": 4.2,
+          "label": "contradicted",
+          "evidence_id": "H8.recommend_for_user#0",
+          "reason": "Earlier peer marks include Before Sunrise at 5.0★ and Gone with the Wind at 4.7★, so 4.2★ is not the strongest peer mark shown."
+        },
+        {
+          "text": "The films in the user's history most similar to this movie were rated just a touch below the user's own average.",
+          "type": "user_stat",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The assessment reason says the most similar movies were rated -0.1★ vs the user's average."
+        },
+        {
+          "text": "The user's overall habits point to about a 3.2★ for this movie.",
+          "type": "prediction",
+          "movie_title": null,
+          "value": 3.2,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The overall_history reason says the user would likely rate it about 3.2★."
+        },
+        {
+          "text": "This is a low-confidence call.",
+          "type": "prediction",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.get_peer_opinion#0",
+          "reason": "The confidence field says level low and 'not a confident call either way.'"
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t14",
+      "turn": 14,
+      "intent": null,
+      "user_id": 10,
+      "answer": "He is — and that's kind of the charm of the whole thing. Let me know if you want to lock Back to the Future in for tomorrow or have me line up one more option to keep it company.",
+      "claims": [],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t15",
+      "turn": 15,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Here's a good companion for it: **Dr. Strangelove** (1964). A deranged general launches a nuclear strike and the Pentagon scrambles to stop it — pitched as a black comedy. It straddles Comedy and War, and War is one of your strongest genres, so this one hits two of your sweet spots at once. It sits at 4.3★ overall, and people with taste like yours gave it a big 4.4★. Genuinely one of the best-matched picks I've pulled for you.\n\nAnd a lighter option if you want a straight romance-comedy: **Roman Holiday** (1953) — a runaway princess and a reporter spend a day roaming Rome. Overall 4.1★, and your taste-alikes loved it at 4.5★.\n\nWant me to make it a three-film set for the weekend, or are we good?",
+      "claims": [
+        {
+          "text": "Dr. Strangelove (1964) is a movie in the Comedy and War genres.",
+          "type": "movie_ref",
+          "movie_title": "Dr. Strangelove",
+          "value": 1964.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool output lists Dr. Strangelove (1964) with genres Comedy and War."
+        },
+        {
+          "text": "In Dr. Strangelove, a deranged general launches a nuclear strike and the Pentagon scrambles to stop it.",
+          "type": "qualitative",
+          "movie_title": "Dr. Strangelove",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool plot says General Ripper orders a nuclear attack and the Pentagon tries to stop it."
+        },
+        {
+          "text": "Dr. Strangelove is pitched as a black comedy.",
+          "type": "qualitative",
+          "movie_title": "Dr. Strangelove",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "'Black comedy' is a tone/genre descriptor not present in the tool output."
+        },
+        {
+          "text": "War is one of the user's strongest genres.",
+          "type": "genre_pref",
+          "movie_title": null,
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "User profile shows War with avg_rating 4.0 and deviation +0.77, one of the strongest genres."
+        },
+        {
+          "text": "Dr. Strangelove hits two of the user's sweet spots at once.",
+          "type": "qualitative",
+          "movie_title": "Dr. Strangelove",
+          "value": 2.0,
+          "label": "contradicted",
+          "evidence_id": "H2.get_user_profile#0",
+          "reason": "Only War is a strong genre; Comedy has deviation -0.028, so it is not a 'sweet spot'."
+        },
+        {
+          "text": "Dr. Strangelove sits at 4.3★ overall.",
+          "type": "qualitative",
+          "movie_title": "Dr. Strangelove",
+          "value": 4.3,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool output gives Dr. Strangelove mean_rating 4.3."
+        },
+        {
+          "text": "People with taste like the user's gave Dr. Strangelove a 4.4★ rating.",
+          "type": "peer_stat",
+          "movie_title": "Dr. Strangelove",
+          "value": 4.4,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool output says the 12 most similar users rated it 4.4★ on average."
+        },
+        {
+          "text": "Dr. Strangelove is one of the best-matched picks the assistant has pulled for the user.",
+          "type": "prediction",
+          "movie_title": "Dr. Strangelove",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "It has a high 4.4★ peer average and matches War, one of the user's strongest genres."
+        },
+        {
+          "text": "Roman Holiday (1953) is a romance-comedy.",
+          "type": "movie_ref",
+          "movie_title": "Roman Holiday",
+          "value": 1953.0,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool output lists Roman Holiday genres as Comedy, Drama, Romance."
+        },
+        {
+          "text": "Roman Holiday is a lighter option.",
+          "type": "qualitative",
+          "movie_title": "Roman Holiday",
+          "value": null,
+          "label": "external",
+          "evidence_id": null,
+          "reason": "'Lighter option' is a tone judgement not stated in the tool output."
+        },
+        {
+          "text": "In Roman Holiday, a runaway princess and a reporter spend a day roaming Rome.",
+          "type": "qualitative",
+          "movie_title": "Roman Holiday",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool plot describes Princess Ann and reporter Joe Bradley spending the day in Rome."
+        },
+        {
+          "text": "Roman Holiday has an overall rating of 4.1★.",
+          "type": "qualitative",
+          "movie_title": "Roman Holiday",
+          "value": 4.1,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool output gives Roman Holiday mean_rating 4.1."
+        },
+        {
+          "text": "The user's taste-alikes loved Roman Holiday at 4.5★.",
+          "type": "peer_stat",
+          "movie_title": "Roman Holiday",
+          "value": 4.5,
+          "label": "supported",
+          "evidence_id": "T.recommend_for_user#0",
+          "reason": "Tool output says the 4 most similar users rated it 4.5★ on average."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    },
+    {
+      "case_id": "20260929-002842_user10_9455a0e4#t16",
+      "turn": 16,
+      "intent": null,
+      "user_id": 10,
+      "answer": "Sounds good — enjoy Back to the Future, and Dr. Strangelove's a great one to keep in your back pocket for later. Just give me a shout whenever you want more picks.",
+      "claims": [
+        {
+          "text": "Back to the Future is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Back to the Future",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H12.recommend_for_user#0",
+          "reason": "The tool output lists Back to the Future with title, year, genres, and plot, confirming it is a movie."
+        },
+        {
+          "text": "Dr. Strangelove is a movie.",
+          "type": "movie_ref",
+          "movie_title": "Dr. Strangelove",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H15.recommend_for_user#0",
+          "reason": "The tool output lists Dr. Strangelove with title, year, genres, and plot, confirming it is a movie."
+        },
+        {
+          "text": "Dr. Strangelove is a great one to keep in your back pocket for later.",
+          "type": "qualitative",
+          "movie_title": "Dr. Strangelove",
+          "value": null,
+          "label": "supported",
+          "evidence_id": "H15.recommend_for_user#0",
+          "reason": "Dr. Strangelove has a 4.3 overall rating and 4.4 from similar users, and War is one of the user's strongest genres, so calling it a great pick is grounded in the evidence."
+        }
+      ],
+      "leaked_terms": [],
+      "not_found_queries": [],
+      "states_not_found": null,
+      "error": null
+    }
+  ]
+}

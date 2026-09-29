@@ -1,0 +1,42 @@
+# Secrets: pass them at runtime with --env-file
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# VCS, IDE, OS
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+.agents/
+AGENTS.md
+
+# Python caches and environments
+**/__pycache__/
+**/*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime output and evaluation caches
+logs/
+.eval_cache/
+evaluation_results.json
+evaluation_audit.jsonl
+*.log
+*.tmp
+
+# Plot embedding cache: only needed to rebuild data/embeddings/ (query cache is kept)
+data/embedding_cache/movies/
+data/summary_cache/
+
+# Local-only experiment scripts (see .gitignore)
+scripts/eval_score_candidate.py
+scripts/eval_score_models_full.py
+scripts/eval_relative_labels/
+scripts/eval_regression_models/

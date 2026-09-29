@@ -1,0 +1,7326 @@
+[
+  {
+    "case_id": "toy_story_live_action",
+    "user_id": 30,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 8368,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The user asked for something other than animated movies after liking Toy Story; Harry Potter and the Prisoner of Azkaban is a live-action fantasy adventure, so it fits the non-animated request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 2329,
+        "title": "American History X",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "American History X is live-action, but it is a dark crime drama about neo-Nazism and violence, not a family-friendly adventure/comedy comparable to Toy Story."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 54001,
+        "title": "Harry Potter and the Order of the Phoenix",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The user asked for something other than animated movies after liking Toy Story; Harry Potter and the Order of the Phoenix is a live-action fantasy/adventure film, so it fits the non-animated alternative request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 50,
+        "title": "Usual Suspects, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The user explicitly wants something other than animated movies after Toy Story, and The Usual Suspects is a live-action crime/mystery/thriller, so it fits the non-animated request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 8636,
+        "title": "Spider-Man 2",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Spider-Man 2 is a live-action action/adventure/sci-fi film, not an animated movie, so it fits the user's request for something other than animated films."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          8368,
+          2329,
+          54001,
+          50,
+          8636
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          8368,
+          54001,
+          50,
+          8636
+        ],
+        "precision": 0.8,
+        "ndcg": 0.9047172294870751,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_watch_tonight",
+    "user_id": 1,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1193,
+        "title": "One Flew Over the Cuckoo's Nest",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 7247,
+        "title": "Chitty Chitty Bang Bang",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1276,
+        "title": "Cool Hand Luke",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2087,
+        "title": "Peter Pan",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1193,
+          7247,
+          318,
+          1276,
+          2087
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "dark_psychological_thriller_twist",
+    "user_id": 15,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1253,
+        "title": "Day the Earth Stood Still, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The movie is a classic sci-fi drama/thriller about an alien visitor and a global warning, not a dark psychological thriller with a clever twist as requested."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1374,
+        "title": "Star Trek II: The Wrath of Khan",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Star Trek II is an action/adventure sci-fi thriller, not a dark psychological thriller; its plot focuses on space combat, revenge, and sacrifice rather than psychological tension or a twist-driven dark thriller narrative."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1356,
+        "title": "Star Trek: First Contact",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The user requested a dark psychological thriller with a clever twist, but Star Trek: First Contact is an action/adventure sci-fi film about the Borg, not a dark psychological thriller."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 908,
+        "title": "North by Northwest",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "North by Northwest is a high-quality Hitchcock thriller with mistaken identity and a twist, but it is primarily an action-adventure espionage/romance film, not a dark psychological thriller as requested."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 593,
+        "title": "Silence of the Lambs, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Silence of the Lambs is a dark psychological thriller involving FBI profiling and Hannibal Lecter, matching the request for tense, high-quality material with a clever twist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 4878,
+        "title": "Donnie Darko",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Donnie Darko is a dark psychological thriller with tense themes of hallucinations, paranoia, and fate, and its time-loop/alternate-timeline ending provides a clever twist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          1253,
+          1374,
+          1356,
+          908,
+          593,
+          4878
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          593,
+          4878
+        ],
+        "precision": 0.3333333333333333,
+        "ndcg": 0.45560514958746035,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "similar_users_pulp_fiction_followup",
+    "user_id": 414,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2973,
+        "title": "Crimes and Misdemeanors",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Crimes and Misdemeanors is a crime film with dark humor and moral/dramatic themes, fitting the request for a similar-appeal unseen crime movie for Pulp Fiction viewers."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1227,
+        "title": "Once Upon a Time in America",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Crime/Drama gangster film with a complex, nonlinear crime saga and themes of loyalty, betrayal, and violence, making it a reasonable unseen recommendation for viewers who appreciate Pulp Fiction's crime-focused appeal."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 3683,
+        "title": "Blood Simple",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Blood Simple is a crime film with noir elements, double-crosses, murder, and darkly suspenseful twists, matching the requested similar appeal to Pulp Fiction's crime story, sharp dialogue, and dark humor."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 4855,
+        "title": "Dirty Harry",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Dirty Harry is a crime thriller with dark, violent themes and iconic dialogue, fitting the request for an unseen crime movie with similar appeal to Pulp Fiction's crime-focused style."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1086,
+        "title": "Dial M for Murder",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Dial M for Murder is a Crime/Mystery/Thriller with a murder plot, investigation, and twist-driven suspense, matching the request for a crime movie with similar genre appeal to Pulp Fiction."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2973,
+          1227,
+          3683,
+          4855,
+          1086
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2973,
+          1227,
+          3683,
+          4855,
+          1086
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "explain_then_recommend_similar",
+    "user_id": 474,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1086,
+        "title": "Dial M for Murder",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Dial M for Murder is a Crime/Mystery/Thriller with an intricate, twist-filled murder scheme and morally complex characters, matching the request for a smart mystery."
+          ]
+        },
+        "taste": {
+          "passed": true,
+          "reasons": [
+            "held-out rating 4 (positive)"
+          ]
+        },
+        "test_rating": 4.0,
+        "test_rating_label": "positive"
+      },
+      {
+        "rank": 2,
+        "movie_id": 2076,
+        "title": "Blue Velvet",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Blue Velvet is a mystery film with layered plotting, morally complex characters, and a strong dramatic core, matching the assistant's stated recommendation criteria."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 27674,
+        "title": "11:14",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "11:14 is a Mystery/Thriller with an interconnected, nonlinear plot that gradually reveals how separate events converge, matching the request for a smart, layered mystery with morally complex characters and a strong dramatic core."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2413,
+        "title": "Clue",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Clue is a comedic, slapstick whodunit with multiple endings, but it lacks the strong dramatic core and morally complex character treatment implied by the assistant's stated reasons for recommending a smart mystery."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 3535,
+        "title": "American Psycho",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "American Psycho is listed as Crime, Horror, Mystery, and Thriller, and its plot centers on a morally complex protagonist, a detective investigation, and an ambiguous, layered narrative that fits the requested smart mystery with dramatic core."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1086,
+          2076,
+          27674,
+          2413,
+          3535
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1086,
+          2076,
+          27674,
+          3535
+        ],
+        "precision": 0.8,
+        "ndcg": 0.9828920819566879,
+        "hit_rate": 1.0
+      },
+      "taste": {
+        "k": 10,
+        "judged_count": 1,
+        "hits": [
+          1086
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0,
+        "negative_hits": [],
+        "dislike_rate": 0.0,
+        "negative_hit_rate": 0.0
+      }
+    }
+  },
+  {
+    "case_id": "genre_blind_spot_recommendation",
+    "user_id": 599,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2064,
+        "title": "Roger & Me",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1289,
+        "title": "Koyaanisqatsi (a.k.a. Koyaanisqatsi: Life Out of Balance)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2677,
+        "title": "Buena Vista Social Club",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1192,
+        "title": "Paris Is Burning",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 246,
+        "title": "Hoop Dreams",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 90630,
+        "title": "Miss Representation",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          2064,
+          1289,
+          2677,
+          1192,
+          246,
+          90630
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "unseen_comedy_simple",
+    "user_id": 2,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1394,
+        "title": "Raising Arizona",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1270,
+        "title": "Back to the Future",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 6188,
+        "title": "Old School",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 54004,
+        "title": "I Now Pronounce You Chuck and Larry",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 34162,
+        "title": "Wedding Crashers",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1394,
+          1270,
+          6188,
+          54004,
+          34162
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "nineties_crime",
+    "user_id": 3,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1089,
+        "title": "Reservoir Dogs",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 50,
+        "title": "Usual Suspects, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2502,
+        "title": "Office Space",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 165,
+        "title": "Die Hard: With a Vengeance",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2959,
+        "title": "Fight Club",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1089,
+          50,
+          2502,
+          165,
+          2959
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "modern_scifi_no_horror",
+    "user_id": 4,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4370,
+        "title": "A.I. Artificial Intelligence",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4878,
+        "title": "Donnie Darko",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4638,
+        "title": "Jurassic Park III",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 3326,
+        "title": "What Planet Are You From?",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4015,
+        "title": "Dude, Where's My Car?",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4370,
+          4878,
+          4638,
+          3326,
+          4015
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "classic_western_before_1970",
+    "user_id": 5,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 5550,
+        "title": "Love Me Tender",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 3737,
+        "title": "Lonely Are the Brave",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1209,
+        "title": "Once Upon a Time in the West (C'era una volta il West)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 4329,
+        "title": "Rio Bravo",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 6785,
+        "title": "Seven Brides for Seven Brothers",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          5550,
+          3737,
+          1209,
+          4329,
+          6785
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "family_adventure_no_animation",
+    "user_id": 6,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1197,
+        "title": "Princess Bride, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The Princess Bride is a live-action Adventure film with family-friendly fantasy/comedy elements and is not animated, matching the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1270,
+        "title": "Back to the Future",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Back to the Future is an Adventure, non-animated film with a PG-style family-friendly adventure tone, fitting the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 7247,
+        "title": "Chitty Chitty Bang Bang",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Chitty Chitty Bang Bang is a live-action Adventure/Children/Fantasy musical, suitable for family viewing and not animated."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 3489,
+        "title": "Hook",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Hook is a live-action Adventure/Fantasy film, not animated, and its Peter Pan family-oriented story is suitable for family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4799,
+        "title": "It's a Mad, Mad, Mad, Mad World",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is an Adventure film, is not animated, and its comedic crime caper plot is suitable for family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1197,
+          1270,
+          7247,
+          3489,
+          4799
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1197,
+          1270,
+          7247,
+          3489,
+          4799
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "uplifting_drama",
+    "user_id": 7,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a Drama and its plot centers on hope, friendship, and eventual freedom/reunion, matching the request for an uplifting and hopeful tone."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 6881,
+        "title": "Pieces of April",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Pieces of April is a Drama/Comedy whose plot moves toward family reconciliation, community help, and appreciation of family, supporting an uplifting and hopeful tone despite difficult circumstances."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 205,
+        "title": "Unstrung Heroes",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a Drama and its plot centers on giving hope, confidence, and new meaning, matching the request for an uplifting and hopeful Drama."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 6245,
+        "title": "Sweet Charity",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The supplied plot focuses on an alternate happy ending, but the film kept the original stage ending, which is not described as uplifting or hopeful; thus it does not clearly match the requested mood."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4117,
+        "title": "Hope and Glory",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Drama, and the plot emphasizes family resilience, survival, and coming closer together during the Blitz, matching an uplifting and hopeful tone."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          6881,
+          205,
+          6245,
+          4117
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          6881,
+          205,
+          4117
+        ],
+        "precision": 0.8,
+        "ndcg": 0.9828920819566879,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "tense_thriller_no_horror",
+    "user_id": 8,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 6639,
+        "title": "Wait Until Dark",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Wait Until Dark is a Drama/Thriller, not Horror, and its plot centers on sustained suspense and tension rather than scares, matching the user's request for an unseen tense Thriller without horror."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4326,
+        "title": "Mississippi Burning",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a Crime/Drama/Thriller and is not Horror, matching the request for a tense thriller without horror scares."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 903,
+        "title": "Vertigo",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Vertigo is a tense Thriller/Mystery with suspense and no Horror genre, matching the request for an unseen tense thriller without scares."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1344,
+        "title": "Cape Fear",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Cape Fear is classified as Crime, Drama, and Thriller, not Horror, and its plot centers on stalking, threats, and escalating tension, matching the request for a tense Thriller without horror."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1086,
+        "title": "Dial M for Murder",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Dial M for Murder is a Crime/Mystery/Thriller with a tense murder plot and no Horror genre, matching the request for suspense without scares."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          6639,
+          4326,
+          903,
+          1344,
+          1086
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          6639,
+          4326,
+          903,
+          1344,
+          1086
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "comforting_light_evening",
+    "user_id": 9,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 337,
+        "title": "What's Eating Gilbert Grape",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The movie is a heavy drama involving suicide, depression, family burden, death, and arson, so it does not fit a comforting, light evening."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1307,
+        "title": "When Harry Met Sally...",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "When Harry Met Sally... is a Comedy/Romance with a warm, relationship-focused story, making it semantically appropriate for a comforting, light evening."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 3307,
+        "title": "City Lights",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "City Lights is a classic romantic comedy with gentle humor and a famously heartwarming, hopeful ending, fitting a comforting, light evening."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 6711,
+        "title": "Lost in Translation",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Lost in Translation is a melancholic drama about loneliness, midlife crisis, marital strain, and a bittersweet goodbye, so it does not fit a comforting, light evening."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 6245,
+        "title": "Sweet Charity",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Sweet Charity is a Comedy, Musical, and Romance film, genres that align with a comforting, light evening."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          337,
+          1307,
+          3307,
+          6711,
+          6245
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1307,
+          3307,
+          6245
+        ],
+        "precision": 0.6,
+        "ndcg": 0.7122630665145961,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "friendship_theme_no_animation",
+    "user_id": 10,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 79134,
+        "title": "Grown Ups",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Grown Ups is a live-action comedy centered on five childhood friends reuniting and maintaining their enduring friendship, and it is not animated."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 88405,
+        "title": "Friends with Benefits",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The movie is a romantic comedy about friends who begin a sexual relationship and eventually become romantically involved, not a story centered on enduring friendship."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4474,
+        "title": "Beaches",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Beaches centers on a lifelong friendship between two women spanning over 30 years, and it is a live-action film, not animated."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2248,
+        "title": "Say Anything...",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Say Anything... is a romantic comedy-drama centered on a teenage romance between Lloyd and Diane, not on enduring friendship, so it does not fit the user's requested theme."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 40826,
+        "title": "Rent",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Rent is a live-action drama/musical about a close-knit group of friends supporting each other through illness, loss, and hardship, so it fits the request for an enduring-friendship-centered film that is not animated."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 3536,
+        "title": "Keeping the Faith",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The plot centers on lifelong friendship between Brian, Jake, and Anna, with their childhood bond rekindled and ultimately mended, and it is a live-action film, not animated."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          79134,
+          88405,
+          4474,
+          2248,
+          40826,
+          3536
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          79134,
+          4474,
+          40826,
+          3536
+        ],
+        "precision": 0.6666666666666666,
+        "ndcg": 0.8756458727267334,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "redemption_drama_after_1980",
+    "user_id": 11,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a 1994 Drama (post-1980) whose plot centers on Andy's wrongful imprisonment, hope, redemption, and eventual second chance, matching the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 36,
+        "title": "Dead Man Walking",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Dead Man Walking is a 1995 Drama (post-1980) whose plot centers on redemption, remorse, responsibility, and forgiveness, matching the request."
+          ]
+        },
+        "taste": {
+          "passed": true,
+          "reasons": [
+            "held-out rating 4 (positive)"
+          ]
+        },
+        "test_rating": 4.0,
+        "test_rating_label": "positive"
+      },
+      {
+        "rank": 3,
+        "movie_id": 4008,
+        "title": "Born on the Fourth of July",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a 1989 Drama whose plot centers on Ron Kovic's guilt, confession, and search for redemption after Vietnam, fitting the requested post-1980 redemption/second-chances theme."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1305,
+        "title": "Paris, Texas",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Paris, Texas is a 1984 Drama whose plot centers on Travis reconnecting with his son and seeking reconciliation with his wife, fitting the redemption and second-chances theme."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1266,
+        "title": "Unforgiven",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Unforgiven is a 1992 Drama (with Western) about William Munny, a repentant former killer seeking to provide for his children and grappling with his violent past, fitting the redemption/second-chances theme."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          36,
+          4008,
+          1305,
+          1266
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          36,
+          4008,
+          1305,
+          1266
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": {
+        "k": 10,
+        "judged_count": 1,
+        "hits": [
+          36
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0,
+        "negative_hits": [],
+        "dislike_rate": 0.0,
+        "negative_hit_rate": 0.0
+      }
+    }
+  },
+  {
+    "case_id": "corruption_crime",
+    "user_id": 12,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1617,
+        "title": "L.A. Confidential",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Crime movie whose plot centers on police corruption, political corruption, and institutional abuses in Los Angeles."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 3735,
+        "title": "Serpico",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Serpico is a Crime film centered on NYPD police corruption and institutional exposure, matching the requested crime movie about institutional corruption."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4830,
+        "title": "Brubaker",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Brubaker is a Crime/Drama film centered on prison institutional corruption, abuse, and corrupt officials, directly matching the user's request for a Crime movie about institutional corruption."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 62792,
+        "title": "Pride and Glory",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Pride and Glory is a Crime/Drama film whose plot centers on NYPD corruption, cover-ups, and internal affairs, matching the request for an unseen crime movie about institutional corruption."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a Crime film whose plot centrally involves institutional corruption at Shawshank prison, including the warden's money laundering, kickbacks, and murder cover-up."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1617,
+          3735,
+          4830,
+          62792,
+          318
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1617,
+          3735,
+          4830,
+          62792,
+          318
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "nonlinear_mystery",
+    "user_id": 13,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4848,
+        "title": "Mulholland Drive",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Mulholland Drive is a Mystery film and its plot explicitly features nonlinear storytelling and temporal disruption, matching the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4226,
+        "title": "Memento",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Memento is a Mystery film with a deliberately nonlinear narrative, using reverse chronological and interwoven black-and-white/color sequences, matching the user's request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 50,
+        "title": "Usual Suspects, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The Usual Suspects is a Mystery film with a famously nonlinear, twist-driven narrative told through flashbacks and unreliable narration."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1089,
+        "title": "Reservoir Dogs",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Reservoir Dogs is a Mystery/Crime film with a famously nonlinear narrative structure, fitting the request for an unseen mystery with a nonlinear story."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4878,
+        "title": "Donnie Darko",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Donnie Darko is a Mystery film with a nonlinear, time-loop narrative involving reverse chronology and prophetic events, matching the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4848,
+          4226,
+          50,
+          1089,
+          4878
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4848,
+          4226,
+          50,
+          1089,
+          4878
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "unreliable_narrator_no_horror",
+    "user_id": 14,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2076,
+        "title": "Blue Velvet",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Blue Velvet is a Drama/Mystery/Thriller and not Horror, but the plot does not indicate an unreliable narrator; it follows Jeffrey's discoveries in a largely straightforward manner, so it does not satisfy the core request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 50,
+        "title": "Usual Suspects, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The Usual Suspects is a Crime/Mystery/Thriller with a classic unreliable narrator: Verbal Kint's account is revealed to be largely fabricated, and it is not Horror."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1193,
+        "title": "One Flew Over the Cuckoo's Nest",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The movie is a Drama and not Horror, but the supplied plot does not indicate an unreliable narrator; it presents a straightforward narrative about institutional conflict."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 903,
+        "title": "Vertigo",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Vertigo is a non-horror psychological mystery/thriller whose plot hinges on deception and a withheld twist, creating an unreliable narrative perspective."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1354,
+        "title": "Breaking the Waves",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The plot describes Bess's psychological problems and subjective religious beliefs, but it does not indicate an unreliable narrator; the request specifically requires an unreliable narrator."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2076,
+          50,
+          1193,
+          903,
+          1354
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          50,
+          903
+        ],
+        "precision": 0.4,
+        "ndcg": 0.6509209298071326,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "clever_plot_twist_after_1990",
+    "user_id": 16,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4848,
+        "title": "Mulholland Drive",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Mulholland Drive was released in 2001 (after 1990) and is a mystery/thriller with a famously non-linear, identity-bending plot twist, fitting the request for a clever plot twist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 2389,
+        "title": "Psycho",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Psycho (1998) is a 1990-or-later crime/horror/thriller whose plot includes a major twist about Norman Bates and his mother, fitting the request for a clever plot twist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 3535,
+        "title": "American Psycho",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "American Psycho was released in 2000, satisfying the 1990-or-later requirement, and its mystery/thriller plot features a notable ambiguous twist regarding whether Bateman's murders and confession are real."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 74458,
+        "title": "Shutter Island",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Shutter Island is a 2010 mystery/thriller with a well-known clever plot twist, fitting the request for a post-1990 movie with a twist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 27674,
+        "title": "11:14",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "11:14 is from 2003 (after 1990) and its plot is built around interconnected events and receding flashbacks that gradually reveal a clever twist, fitting the request for a movie with a clever plot twist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 164,
+        "title": "Devil in a Blue Dress",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Devil in a Blue Dress is a 1995 mystery/thriller, satisfying the post-1990 requirement, and its plot includes multiple revelations and twists about Daphne, the murders, and the mayoral race."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          4848,
+          2389,
+          3535,
+          74458,
+          27674,
+          164
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          4848,
+          2389,
+          3535,
+          74458,
+          27674,
+          164
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "date_night_romance_comedy",
+    "user_id": 17,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4306,
+        "title": "Shrek",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Shrek is tagged with both Romance and Comedy, and its romantic plot plus broad comedy make it suitable for a date night movie."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 539,
+        "title": "Sleepless in Seattle",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Sleepless in Seattle is a Romance and Comedy film, matching the requested genres, and its romantic date-night storyline is semantically appropriate."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4719,
+        "title": "Osmosis Jones",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Although Osmosis Jones lists Comedy and Romance among its genres, it is primarily an animated action/crime/thriller about the inside of a human body, with romance only a minor subplot, so it does not fit a date-night Romance and Comedy request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 11,
+        "title": "American President, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is tagged Comedy and Romance, and its plot centers on a romantic relationship with comedic political elements, making it appropriate for a date-night romance/comedy request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 497,
+        "title": "Much Ado About Nothing",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is classified as both Comedy and Romance, and its romantic-comedy plot about love and matchmaking is well suited for a date night."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4306,
+          539,
+          4719,
+          11,
+          497
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4306,
+          539,
+          11,
+          497
+        ],
+        "precision": 0.8,
+        "ndcg": 0.9558295932317544,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_open_choice",
+    "user_id": 18,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1945,
+        "title": "On the Waterfront",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4848,
+        "title": "Mulholland Drive",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1266,
+        "title": "Unforgiven",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 3435,
+        "title": "Double Indemnity",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4878,
+        "title": "Donnie Darko",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1945,
+          4848,
+          1266,
+          3435,
+          4878
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_two_movies",
+    "user_id": 19,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 296,
+        "title": "Pulp Fiction",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1089,
+        "title": "Reservoir Dogs",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 4027,
+        "title": "O Brother, Where Art Thou?",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 750,
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          296,
+          1089,
+          4027,
+          750
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_documentary",
+    "user_id": 20,
+    "requested_k": 10,
+    "evaluated_count": 8,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2677,
+        "title": "Buena Vista Social Club",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 246,
+        "title": "Hoop Dreams",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 116,
+        "title": "Anne Frank Remembered",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2064,
+        "title": "Roger & Me",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 75947,
+        "title": "Mondo Cane",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 99,
+        "title": "Heidi Fleiss: Hollywood Madam",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 7,
+        "movie_id": 5643,
+        "title": "Powaqqatsi",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 8,
+        "movie_id": 1289,
+        "title": "Koyaanisqatsi (a.k.a. Koyaanisqatsi: Life Out of Balance)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 8,
+        "hits": [
+          2677,
+          246,
+          116,
+          2064,
+          75947,
+          99,
+          5643,
+          1289
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_action_no_war",
+    "user_id": 21,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 8636,
+        "title": "Spider-Man 2",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1101,
+        "title": "Top Gun",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 45722,
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1197,
+        "title": "Princess Bride, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2600,
+        "title": "eXistenZ",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          8636,
+          1101,
+          45722,
+          1197,
+          2600
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "eighties_fantasy",
+    "user_id": 22,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1197,
+        "title": "Princess Bride, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1261,
+        "title": "Evil Dead II (Dead by Dawn)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2115,
+        "title": "Indiana Jones and the Temple of Doom",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 26492,
+        "title": "Twilight Zone: The Movie",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 8169,
+        "title": "*batteries not included",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1197,
+          1261,
+          2115,
+          26492,
+          8169
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "pre_2000_musical",
+    "user_id": 23,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1073,
+        "title": "Willy Wonka & the Chocolate Factory",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1298,
+        "title": "Pink Floyd: The Wall",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 364,
+        "title": "Lion King, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 869,
+        "title": "Kansas City",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 26195,
+        "title": "Sympathy for the Devil",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1073,
+          1298,
+          364,
+          869,
+          26195
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "recent_animation_comedy",
+    "user_id": 24,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 78499,
+        "title": "Toy Story 3",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 79091,
+        "title": "Despicable Me",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 87876,
+        "title": "Cars 2",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 56152,
+        "title": "Enchanted",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 81847,
+        "title": "Tangled",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          78499,
+          79091,
+          87876,
+          56152,
+          81847
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "drama_without_romance",
+    "user_id": 25,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 68157,
+        "title": "Inglourious Basterds",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1208,
+        "title": "Apocalypse Now",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 97304,
+        "title": "Argo",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 8132,
+        "title": "Gladiator",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 760,
+        "title": "Stalingrad",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          68157,
+          1208,
+          97304,
+          8132,
+          760
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "action_adventure_no_scifi",
+    "user_id": 26,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1198,
+        "title": "Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 733,
+        "title": "Rock, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 112,
+        "title": "Rumble in the Bronx (Hont faan kui)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 648,
+        "title": "Mission: Impossible",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1291,
+        "title": "Indiana Jones and the Last Crusade",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1198,
+          733,
+          112,
+          648,
+          1291
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "film_noir_mystery",
+    "user_id": 27,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 913,
+        "title": "Maltese Falcon, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": {
+          "passed": true,
+          "reasons": [
+            "held-out rating 4 (positive)"
+          ]
+        },
+        "test_rating": 4.0,
+        "test_rating_label": "positive"
+      },
+      {
+        "rank": 2,
+        "movie_id": 2206,
+        "title": "Suspicion",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 942,
+        "title": "Laura",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 929,
+        "title": "Foreign Correspondent",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1284,
+        "title": "Big Sleep, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          913,
+          2206,
+          942,
+          929,
+          1284
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": {
+        "k": 10,
+        "judged_count": 1,
+        "hits": [
+          913
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0,
+        "negative_hits": [],
+        "dislike_rate": 0.0,
+        "negative_hit_rate": 0.0
+      }
+    }
+  },
+  {
+    "case_id": "war_drama_1960_1990",
+    "user_id": 28,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1090,
+        "title": "Platoon",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1204,
+        "title": "Lawrence of Arabia",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1299,
+        "title": "Killing Fields, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1217,
+        "title": "Ran",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1242,
+        "title": "Glory",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1090,
+          1204,
+          1299,
+          1217,
+          1242
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "grief_and_healing",
+    "user_id": 29,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 51931,
+        "title": "Reign Over Me",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Reign Over Me centers on a man's profound grief after losing his wife and daughters on 9/11 and depicts emotional healing through rekindled friendship and therapy, matching the request for a thoughtful story about both loss and recovery."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 82767,
+        "title": "Rabbit Hole",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Rabbit Hole is a drama centered on a couple's grief after their young son's death and their gradual emotional healing and acceptance, matching the request for a thoughtful story about both loss and recovery."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 80969,
+        "title": "Never Let Me Go",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Never Let Me Go is a thoughtful drama centered on mortality, loss, love, and acceptance, with characters processing grief and emotional reconciliation, fitting the request for a story about grief and emotional healing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1305,
+        "title": "Paris, Texas",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Paris, Texas is a thoughtful drama centered on loss, regret, and emotional reconnection, depicting Travis's grief and gradual healing with his son and estranged wife."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4008,
+        "title": "Born on the Fourth of July",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The plot centers on Ron Kovic's grief and guilt over killing a fellow Marine, his traumatic loss and paralysis, and his eventual confession and activism, which align with a thoughtful story about grief and emotional healing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          51931,
+          82767,
+          80969,
+          1305,
+          4008
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          51931,
+          82767,
+          80969,
+          1305,
+          4008
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "dark_comedy_crime",
+    "user_id": 31,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 910,
+        "title": "Some Like It Hot",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is classified as Comedy and Crime, and its plot centers on witnessing mob violence and killings in a farcical, darkly comedic manner."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 2383,
+        "title": "Police Academy 6: City Under Siege",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The movie is a Crime/Comedy, but Police Academy 6 is known for broad slapstick police humor rather than the requested darkly comic tone."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2001,
+        "title": "Lethal Weapon 2",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is listed with Crime and Comedy genres and the plot mixes criminal investigation, violent revenge, and comedic elements like Leo Getz’s running gag and the darkly comic 'diplomatic immunity' ending."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2371,
+        "title": "Fletch",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Fletch is a Comedy, Crime, and Mystery film involving a murder-for-hire scheme, corruption, and an undercover investigation, matching the requested blend of crime and comedy with a darkly comic tone."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1963,
+        "title": "Take the Money and Run",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is explicitly categorized as Comedy and Crime, and its plot follows a lifelong crime spree with absurd, darkly comic elements such as soap-gun escapes and a 700-year prison sentence."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          910,
+          2383,
+          2001,
+          2371,
+          1963
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          910,
+          2001,
+          2371,
+          1963
+        ],
+        "precision": 0.8,
+        "ndcg": 0.9047172294870751,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "feel_good_sports_story",
+    "user_id": 32,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1302,
+        "title": "Field of Dreams",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Field of Dreams is a baseball-themed fantasy drama about Ray Kinsella building a field and reconciling with his father, not a feel-good movie centered on an underdog sports team overcoming challenges."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 246,
+        "title": "Hoop Dreams",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Hoop Dreams is a documentary about two individuals pursuing basketball, not a feel-good movie about an underdog sports team; it emphasizes hardship and systemic issues more than uplifting team triumph."
+          ]
+        },
+        "taste": {
+          "passed": true,
+          "reasons": [
+            "held-out rating 4 (positive)"
+          ]
+        },
+        "test_rating": 4.0,
+        "test_rating_label": "positive"
+      },
+      {
+        "rank": 3,
+        "movie_id": 2042,
+        "title": "D2: The Mighty Ducks",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "D2: The Mighty Ducks is a feel-good underdog sports movie about a youth hockey team overcoming setbacks and winning a tournament, matching the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 205,
+        "title": "Unstrung Heroes",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a feel-good Comedy/Drama centered on forming a baseball team to give boys hope and confidence, which fits the underdog sports team theme."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 5292,
+        "title": "Slap Shot",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Slap Shot is a sports comedy about the struggling Charlestown Chiefs hockey team, an underdog squad that ultimately wins the championship, fitting the request for an underdog sports movie with a feel-good ending."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 485,
+        "title": "Last Action Hero",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The supplied plot involves forming a community baseball team for fathers and sons, but it does not describe an underdog sports team; its listed genres are Action, Adventure, Comedy, and Fantasy, not sports/feel-good underdog themes."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          1302,
+          246,
+          2042,
+          205,
+          5292,
+          485
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          2042,
+          205,
+          5292
+        ],
+        "precision": 0.5,
+        "ndcg": 0.6182885020492784,
+        "hit_rate": 1.0
+      },
+      "taste": {
+        "k": 10,
+        "judged_count": 1,
+        "hits": [
+          246
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0,
+        "negative_hits": [],
+        "dislike_rate": 0.0,
+        "negative_hit_rate": 0.0
+      }
+    }
+  },
+  {
+    "case_id": "quiet_character_study",
+    "user_id": 33,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2858,
+        "title": "American Beauty",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "American Beauty is a Drama, but it is an ensemble suburban satire with multiple intersecting plotlines rather than a quiet, intimate character study."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1952,
+        "title": "Midnight Cowboy",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Midnight Cowboy is a Drama centered on the intimate, character-driven relationship between Joe and Ratso, making it a strong fit for a quiet, intimate character study."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1305,
+        "title": "Paris, Texas",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Paris, Texas is a Drama centered on a quiet, introspective character study of Travis Henderson, focusing on his silence, personal history, and gradual emotional reconnection rather than plot-driven action."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 979,
+        "title": "Nothing Personal",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Drama focused on two solitary characters and their slow, intimate emotional connection in an austere setting, matching the request for a quiet character study."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2076,
+        "title": "Blue Velvet",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Blue Velvet is a Drama/Mystery/Thriller, but its plot centers on a lurid crime mystery with violence, voyeurism, and sadomasochism, so it does not fit the requested quiet, intimate character study."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2858,
+          1952,
+          1305,
+          979,
+          2076
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1952,
+          1305,
+          979
+        ],
+        "precision": 0.6,
+        "ndcg": 0.7328286204777911,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "fast_paced_heist",
+    "user_id": 34,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4963,
+        "title": "Ocean's Eleven",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Ocean's Eleven is a fast-paced Crime/Thriller centered on an elaborate casino heist, matching the request for an energetic robbery movie."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4011,
+        "title": "Snatch",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Snatch is a fast-paced Crime/Thriller involving a diamond heist and multiple robbery-related plots, matching the request for an energetic crime movie built around a heist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4889,
+        "title": "Heist",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a Crime film centered on a professional heist crew planning and executing a complex robbery, matching the user's request for a fast-paced crime movie built around a heist."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1036,
+        "title": "Die Hard",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Die Hard is an Action/Crime/Thriller centered on a group seizing a building to steal $640 million in bearer bonds, matching the request for an energetic, fast-paced crime movie built around a heist/robbery."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 7028,
+        "title": "Quick Change",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Quick Change is a Crime movie built around a bank robbery/heist, with the plot focused on the robbers' chaotic, fast-moving getaway, matching the request for an energetic unseen heist film."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4963,
+          4011,
+          4889,
+          1036,
+          7028
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4963,
+          4011,
+          4889,
+          1036,
+          7028
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "atmospheric_scifi",
+    "user_id": 35,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 924,
+        "title": "2001: A Space Odyssey",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "2001: A Space Odyssey is a Sci-Fi film with a deliberately mysterious, atmospheric tone, focusing on enigmatic monoliths, HAL, and cosmic transcendence rather than nonstop action."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 7001,
+        "title": "Invasion of the Body Snatchers",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is Sci-Fi with Mystery/Horror/Thriller elements, and its plot emphasizes eerie paranoia, slow-burn discovery, and atmospheric dread rather than nonstop action."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2311,
+        "title": "2010: The Year We Make Contact",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Sci-Fi film focused on mystery, cosmic discovery, and tense atmospheric investigation rather than nonstop action, matching the requested tone."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 6645,
+        "title": "THX 1138",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "THX 1138 is a Sci-Fi film with a dystopian, mind-control/escape plot and a moody, atmospheric style rather than nonstop action."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2916,
+        "title": "Total Recall",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Although Total Recall is Sci-Fi and has mysterious memory/identity elements, its genres and plot emphasize Action/Adventure and Thriller with constant chases, fights, and killings, so it does not fit the requested mysterious, atmospheric tone rather than nonstop action."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          924,
+          7001,
+          2311,
+          6645,
+          2916
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          924,
+          7001,
+          2311,
+          6645
+        ],
+        "precision": 0.8,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "similar_to_groundhog_day_no_romance",
+    "user_id": 36,
+    "requested_k": 10,
+    "evaluated_count": 0,
+    "movies": [],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 0,
+        "hits": [],
+        "precision": 0.0,
+        "ndcg": 0.0,
+        "hit_rate": 0.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "similar_to_alien_not_horror",
+    "user_id": 37,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 924,
+        "title": "2001: A Space Odyssey",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "2001: A Space Odyssey is Sci-Fi (not Horror) and features the isolated spacecraft Discovery One with mounting tension involving HAL, matching the requested appeal."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 26124,
+        "title": "Robinson Crusoe on Mars",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Sci-Fi film, not Horror, and centers on an isolated astronaut stranded on Mars with survival tension and alien threat, matching the requested confined sci-fi appeal."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4443,
+        "title": "Outland",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Outland is a non-horror Sci-Fi thriller set in an isolated space outpost, with confined-setting tension and mounting danger similar to Alien's isolated-space appeal."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2311,
+        "title": "2010: The Year We Make Contact",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Sci-Fi film, not Horror, and features spacecraft-based tension and confined deep-space settings similar to the requested appeal."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 5410,
+        "title": "Silent Running",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Silent Running is a Sci-Fi film set largely aboard an isolated spacecraft, matching the confined-space and mounting-tension appeal, and its genres are Drama/Sci-Fi rather than Horror."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          924,
+          26124,
+          4443,
+          2311,
+          5410
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          924,
+          26124,
+          4443,
+          2311,
+          5410
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "similar_to_before_sunrise",
+    "user_id": 38,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 25,
+        "title": "Leaving Las Vegas",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Leaving Las Vegas is a Romance/Drama, but its plot centers on alcoholism, self-destruction, prostitution, and a doomed relationship, not the intimate, conversation-driven, hopeful romance of Before Sunrise."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 497,
+        "title": "Much Ado About Nothing",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Romance film whose plot centers on romantic relationships and witty, dialogue-driven courtship and confession scenes, matching the conversation-driven romantic appeal requested."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 362,
+        "title": "Jungle Book, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Although tagged Romance, 'Jungle Book' is primarily a family adventure/fantasy about Mowgli living among animals, with a secondary childhood-to-adult romance rather than the intimate, conversation-driven dynamic requested like Before Sunrise."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 920,
+        "title": "Gone with the Wind",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Gone with the Wind is an epic historical war romance, not an intimate, conversation-driven film like Before Sunrise; its plot spans years, war, and melodrama rather than focusing on a single evolving dialogue between two people."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 587,
+        "title": "Ghost",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Ghost is a supernatural romantic thriller centered on murder, money laundering, and ghosts, not an intimate, conversation-driven romance like Before Sunrise."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 903,
+        "title": "Vertigo",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Vertigo is primarily a psychological mystery/thriller with obsessive romance elements, not an intimate, conversation-driven romance like Before Sunrise."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          25,
+          497,
+          362,
+          920,
+          587,
+          903
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          497
+        ],
+        "precision": 0.16666666666666666,
+        "ndcg": 0.6309297535714575,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "children_fantasy_no_animation",
+    "user_id": 39,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 7247,
+        "title": "Chitty Chitty Bang Bang",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1028,
+        "title": "Mary Poppins",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 173873,
+        "title": "Gulliver's Travels",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 919,
+        "title": "Wizard of Oz, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1073,
+        "title": "Willy Wonka & the Chocolate Factory",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": {
+          "passed": false,
+          "reasons": [
+            "held-out rating 3 (neutral)"
+          ]
+        },
+        "test_rating": 3.0,
+        "test_rating_label": "neutral"
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          7247,
+          1028,
+          173873,
+          919,
+          1073
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": {
+        "k": 10,
+        "judged_count": 1,
+        "hits": [],
+        "precision": 0.0,
+        "ndcg": 0.0,
+        "hit_rate": 0.0,
+        "negative_hits": [],
+        "dislike_rate": 0.0,
+        "negative_hit_rate": 0.0
+      }
+    }
+  },
+  {
+    "case_id": "horror_after_2010",
+    "user_id": 40,
+    "requested_k": 10,
+    "evaluated_count": 10,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1258,
+        "title": "Shining, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 26492,
+        "title": "Twilight Zone: The Movie",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 366,
+        "title": "Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale, A)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2076,
+        "title": "Blue Velvet",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "missing required genres: ['Horror']",
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1982,
+        "title": "Halloween",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 1974,
+        "title": "Friday the 13th",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 7,
+        "movie_id": 2327,
+        "title": "Tales from the Darkside: The Movie",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 8,
+        "movie_id": 1407,
+        "title": "Scream",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 9,
+        "movie_id": 2867,
+        "title": "Fright Night",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 10,
+        "movie_id": 1994,
+        "title": "Poltergeist",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "movie year does not meet min_year=2010"
+          ]
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 10,
+        "hits": [],
+        "precision": 0.0,
+        "ndcg": 0.0,
+        "hit_rate": 0.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "adventure_before_1980_no_western",
+    "user_id": 41,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 919,
+        "title": "Wizard of Oz, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4799,
+        "title": "It's a Mad, Mad, Mad, Mad World",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1032,
+        "title": "Alice in Wonderland",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 2871,
+        "title": "Deliverance",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 3345,
+        "title": "Charlie, the Lonesome Cougar",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          919,
+          4799,
+          1032,
+          2871,
+          3345
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "mystery_thriller_2000s",
+    "user_id": 42,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4878,
+        "title": "Donnie Darko",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4226,
+        "title": "Memento",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 4848,
+        "title": "Mulholland Drive",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 4978,
+        "title": "Lantana",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4975,
+        "title": "Vanilla Sky",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4878,
+          4226,
+          4848,
+          4978,
+          4975
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_classic_movie",
+    "user_id": 43,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 919,
+        "title": "Wizard of Oz, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1077,
+        "title": "Sleeper",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 908,
+        "title": "North by Northwest",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1103,
+        "title": "Rebel Without a Cause",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1136,
+        "title": "Monty Python and the Holy Grail",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          919,
+          1077,
+          908,
+          1103,
+          1136
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "personalized_no_comedy",
+    "user_id": 44,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 3379,
+        "title": "On the Beach",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1276,
+        "title": "Cool Hand Luke",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1196,
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 431,
+        "title": "Carlito's Way",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          3379,
+          1276,
+          1196,
+          431
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "allowed_repeat_favorite_genre",
+    "user_id": 45,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1222,
+        "title": "Full Metal Jacket",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1103,
+        "title": "Rebel Without a Cause",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 3949,
+        "title": "Requiem for a Dream",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 4848,
+        "title": "Mulholland Drive",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          318,
+          1222,
+          1103,
+          3949,
+          4848
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "another_witty_mystery",
+    "user_id": 46,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1086,
+        "title": "Dial M for Murder",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Dial M for Murder is a Crime/Mystery/Thriller about a planned murder and suspenseful investigation, with a dark tone rather than the requested playful humor and witty dialogue."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 2413,
+        "title": "Clue",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Clue is a Mystery/Comedy with playful slapstick humor and witty dialogue, matching the requested tone and genre."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 3284,
+        "title": "They Might Be Giants",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Mystery/Comedy about a man who believes he is Sherlock Holmes, with quirky Holmesian deduction and banter with Dr. Watson, matching playful humor and witty dialogue."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 911,
+        "title": "Charade",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Charade is a Mystery with Comedy elements, and its plot of mistaken identities, romantic banter, and suspenseful twists fits the requested playful humor and witty dialogue."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 7833,
+        "title": "Shadow of the Thin Man",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is a Comedy/Crime/Mystery featuring Nick and Nora Charles in a lighthearted murder investigation with playful set pieces like a wrestling match, merry-go-round, and restaurant brawl, matching the requested mystery with playful humor and witty dialogue."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1086,
+          2413,
+          3284,
+          911,
+          7833
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2413,
+          3284,
+          911,
+          7833
+        ],
+        "precision": 0.8,
+        "ndcg": 0.7606395682357036,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "family_viewing_no_horror_crime",
+    "user_id": 47,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 68954,
+        "title": "Up",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Up is an animated family adventure with genres Adventure, Animation, Children, and Drama, and it contains neither Horror nor Crime, making it suitable for relaxed family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 586,
+        "title": "Home Alone",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Home Alone is a Children/Comedy family film and is not classified as Horror or Crime, making it appropriate for relaxed family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1,
+        "title": "Toy Story",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Toy Story is an animated children's comedy/adventure/fantasy film, with no Horror or Crime genres, making it suitable for relaxed family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 4886,
+        "title": "Monsters, Inc.",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Monsters, Inc. is an animated family-friendly comedy/adventure with Children and Fantasy genres, and it contains neither Horror nor Crime, making it suitable for relaxed family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 56152,
+        "title": "Enchanted",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Enchanted is a family-friendly animated/live-action musical fantasy with Children, Comedy, and Romance genres, and its listed genres do not include Horror or Crime."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          68954,
+          586,
+          1,
+          4886,
+          56152
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          68954,
+          586,
+          1,
+          4886,
+          56152
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "post_work_comedy_mood",
+    "user_id": 7,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 608,
+        "title": "Fargo",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Fargo is explicitly categorized as Comedy, matching the user's request for something to laugh at."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 910,
+        "title": "Some Like It Hot",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The user wants a comedy to laugh at tonight, and Some Like It Hot is a classic Comedy with a farcical, humorous plot involving mistaken identities and chase scenes."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2502,
+        "title": "Office Space",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Office Space is a comedy, matching the user's request for something to laugh at tonight."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 3033,
+        "title": "Spaceballs",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Spaceballs is a comedy and sci-fi parody, making it semantically appropriate for a user who wants to laugh tonight."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 38061,
+        "title": "Kiss Kiss Bang Bang",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is explicitly in the Comedy genre and is a well-known dark comedy, matching the user's request for something to laugh at tonight."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          608,
+          910,
+          2502,
+          3033,
+          38061
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          608,
+          910,
+          2502,
+          3033,
+          38061
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "nineties_crime_flick",
+    "user_id": 22,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 296,
+        "title": "Pulp Fiction",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 778,
+        "title": "Trainspotting",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1617,
+        "title": "L.A. Confidential",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 50,
+        "title": "Usual Suspects, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 288,
+        "title": "Natural Born Killers",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          296,
+          778,
+          1617,
+          50,
+          288
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "low_key_date_night",
+    "user_id": 101,
+    "requested_k": 10,
+    "evaluated_count": 8,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2248,
+        "title": "Say Anything...",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Say Anything... is a romantic comedy-drama about a young couple, fitting a low-key date-night watch with romantic and comedic elements; while it includes a serious subplot, it is not primarily heavy."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 337,
+        "title": "What's Eating Gilbert Grape",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The film is a heavy drama dealing with suicide, depression, family hardship, and death, which conflicts with the user's request for 'nothing too heavy.'"
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 2973,
+        "title": "Crimes and Misdemeanors",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The user asked for something not too heavy for a low-key date night, but Crimes and Misdemeanors involves murder, guilt, suicide, and moral anguish, making it tonally too dark and heavy for the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 3045,
+        "title": "Peter's Friends",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The user asked for something not too heavy, but Peter's Friends includes serious themes of death, loss, and personal tragedy despite being primarily a comedy."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2738,
+        "title": "Crimes of the Heart",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The plot centers on dysfunctional family trauma, including an abusive husband being shot, a mother's suicide, a nervous breakdown, and past resentments, which conflicts with the request for something not too heavy and low-key."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 94,
+        "title": "Beautiful Girls",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Beautiful Girls is a Comedy/Drama/Romance focused on relationships and life choices, making it suitable for a low-key date night without being an overly heavy or intense film."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 7,
+        "movie_id": 1449,
+        "title": "Waiting for Guffman",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a lighthearted comedy that fits the request for something relaxed and not too heavy for a couple's movie night."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 8,
+        "movie_id": 1307,
+        "title": "When Harry Met Sally...",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "When Harry Met Sally... is a light romantic comedy about relationships, fitting the request for something relaxed and enjoyable for a couple's low-key date night."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 8,
+        "hits": [
+          2248,
+          337,
+          2973,
+          3045,
+          2738,
+          94,
+          1449,
+          1307
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 8,
+        "hits": [
+          2248,
+          94,
+          1449,
+          1307
+        ],
+        "precision": 0.5,
+        "ndcg": 0.7827141072039429,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "matrix_vibe_not_action",
+    "user_id": 58,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1270,
+        "title": "Back to the Future",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Back to the Future is a sci-fi time-travel film with paradoxes and reality-altering consequences, giving it a mind-bending feel, and its genres are adventure/comedy/sci-fi rather than a straight-up action movie."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1097,
+        "title": "E.T. the Extra-Terrestrial",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "E.T. is a family-friendly sci-fi drama about a boy befriending an alien, not a mind-bending or reality-questioning film like The Matrix."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1223,
+        "title": "Grand Day Out with Wallace and Gromit, A",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The candidate is an animated family comedy/adventure, not a mind-bending film like The Matrix; its genres and premise do not match the requested philosophical or reality-bending feel."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 741,
+        "title": "Ghost in the Shell (Kôkaku kidôtai)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Ghost in the Shell is a Sci-Fi/Animation film with cyberpunk, philosophical themes that match the requested mind-bending feel without being a straight-up action movie."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 2010,
+        "title": "Metropolis",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Metropolis is a classic dystopian sci-fi film with philosophical and identity themes akin to The Matrix's mind-bending feel, and it is primarily drama/sci-fi rather than a straight-up action movie."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 29,
+        "title": "City of Lost Children, The (Cité des enfants perdus, La)",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "City of Lost Children is a surreal sci-fi/fantasy mystery with dreamlike, mind-bending qualities and is not primarily a straight-up action movie, matching the request."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          1270,
+          1097,
+          1223,
+          741,
+          2010,
+          29
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          1270,
+          741,
+          2010,
+          29
+        ],
+        "precision": 0.6666666666666666,
+        "ndcg": 0.8485833840018,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "go_with_usual_taste",
+    "user_id": 3,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1214,
+        "title": "Alien",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 541,
+        "title": "Blade Runner",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1258,
+        "title": "Shining, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 4941,
+        "title": "Flash Gordon",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1200,
+        "title": "Aliens",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1214,
+          541,
+          1258,
+          4941,
+          1200
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "grief_redemption_drama",
+    "user_id": 210,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 364,
+        "title": "Lion King, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The Lion King is tagged as Drama and its plot centers on Simba's grief over Mufasa's death, guilt, and eventual redemption by returning to reclaim Pride Rock; it is a mainstream animated film, not slow or artsy."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 110127,
+        "title": "Noah",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Although Noah is listed as a Drama, its plot focuses on divine visions, warning humanity, and rallying the Watchers, with no evidence of dealing with grief and finding redemption afterward as requested."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 68954,
+        "title": "Up",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Up is tagged Drama and centers on Carl grieving Ellie's death, then finding renewed purpose and redemption through his adventure with Russell, while remaining an accessible animated adventure rather than slow or artsy."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 356,
+        "title": "Forrest Gump",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Forrest Gump is a mainstream Drama that includes grief (Bubba, his mother, Jenny) and redemption arcs, especially Lt. Dan finding peace, and it is not slow or artsy."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 318,
+        "title": "Shawshank Redemption, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Shawshank Redemption is a Drama centered on wrongful imprisonment, loss, hope, and redemption, with an accessible narrative rather than an overly slow or artsy style."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 95309,
+        "title": "Seeking a Friend for the End of the World",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a Drama that deals with impending loss, grief, and redemption/reconciliation, while mixing comedy and romance so it is not overly slow or artsy."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          364,
+          110127,
+          68954,
+          356,
+          318,
+          95309
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          364,
+          68954,
+          356,
+          318,
+          95309
+        ],
+        "precision": 0.8333333333333334,
+        "ndcg": 0.9068250379649666,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "fight_club_similar_users_twist",
+    "user_id": 305,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 2076,
+        "title": "Blue Velvet",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Blue Velvet is a dark psychological mystery/thriller with disturbing themes, criminal intrigue, and narrative reveals, matching the requested twisty, dark vibe."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 4848,
+        "title": "Mulholland Drive",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Mulholland Drive is a dark, nonlinear mystery/thriller with identity shifts, dreamlike twists, and psychological unease, matching the requested twisty, dark vibe."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 3535,
+        "title": "American Psycho",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "American Psycho is a dark psychological thriller with violent satire and an ambiguous, twisty narrative, matching the requested 'twisty, dark vibe' similar to Fight Club."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 6639,
+        "title": "Wait Until Dark",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Wait Until Dark is a dark thriller with an elaborate con, murder, deception, and a tense climactic reversal, matching the requested twisty, dark vibe."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 8950,
+        "title": "The Machinist",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The Machinist is a dark psychological thriller/mystery with an unreliable protagonist, paranoia, and a twist reveal, matching the requested 'twisty, dark vibe' similar to Fight Club."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2076,
+          4848,
+          3535,
+          6639,
+          8950
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          2076,
+          4848,
+          3535,
+          6639,
+          8950
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "family_weekend_pick",
+    "user_id": 46,
+    "requested_k": 10,
+    "evaluated_count": 6,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 364,
+        "title": "Lion King, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The Lion King is an animated children's/family adventure musical with broad family appeal, fitting the request for something the whole family can watch together."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 1022,
+        "title": "Cinderella",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Cinderella is an animated children's musical fantasy with family-friendly themes, making it appropriate for a whole-family weekend watch."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 596,
+        "title": "Pinocchio",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Pinocchio is an animated children's musical fantasy, making it suitable for whole-family viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 661,
+        "title": "James and the Giant Peach",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "The movie is an adventure/fantasy children's animated musical, suitable for a family weekend viewing and not evidently previously seen by the user."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 594,
+        "title": "Snow White and the Seven Dwarfs",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Snow White and the Seven Dwarfs is an animated children's musical fantasy classic, making it suitable for a family audience and a plausible unseen weekend family watch."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 6,
+        "movie_id": 2087,
+        "title": "Peter Pan",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Peter Pan is an animated children's fantasy musical, a classic family-friendly film suitable for a whole-family weekend viewing."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          364,
+          1022,
+          596,
+          661,
+          594,
+          2087
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 6,
+        "hits": [
+          364,
+          1022,
+          596,
+          661,
+          594,
+          2087
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  },
+  {
+    "case_id": "pre_2000_scifi_pick",
+    "user_id": 89,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 1527,
+        "title": "Fifth Element, The",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 7481,
+        "title": "Enemy Mine",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 1097,
+        "title": "E.T. the Extra-Terrestrial",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1301,
+        "title": "Forbidden Planet",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 1676,
+        "title": "Starship Troopers",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": null,
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          1527,
+          7481,
+          1097,
+          1301,
+          1676
+        ],
+        "precision": 1.0,
+        "ndcg": 1.0,
+        "hit_rate": 1.0
+      },
+      "semantic": null,
+      "taste": null
+    }
+  },
+  {
+    "case_id": "unreliable_narrator_mystery",
+    "user_id": 133,
+    "requested_k": 10,
+    "evaluated_count": 5,
+    "movies": [
+      {
+        "rank": 1,
+        "movie_id": 4969,
+        "title": "And Then There Were None",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "It is a classic Crime/Mystery with a deceptive plot and a major final twist revealing Judge Quincannon as the culprit, matching the request for a mystery where events flip at the end."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 2,
+        "movie_id": 2186,
+        "title": "Strangers on a Train",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "missing required genres: ['Mystery']"
+          ]
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "Strangers on a Train is a crime/thriller about a murder-swap scheme, but its plot is not structured around an untrustworthy narrator or a final reality flip; it does not match the requested unreliable-narrator mystery."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 3,
+        "movie_id": 320,
+        "title": "Suture",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "missing required genres: ['Mystery']"
+          ]
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Suture is a Film-Noir/Thriller built around identity switching, faked death, amnesia, and a final adoption of a new identity, matching the requested twisty, unreliable-identity mystery."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 4,
+        "movie_id": 1193,
+        "title": "One Flew Over the Cuckoo's Nest",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": false,
+          "reasons": [
+            "missing required genres: ['Mystery']"
+          ]
+        },
+        "semantic": {
+          "passed": false,
+          "reasons": [
+            "The user asked for a mystery with an untrustworthy narrator and a major end twist. One Flew Over the Cuckoo's Nest is a drama set in a mental institution and does not match the mystery/unreliable-narrator/twist requirement."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      },
+      {
+        "rank": 5,
+        "movie_id": 5021,
+        "title": "Murder by Death",
+        "valid_movie_id": true,
+        "hard_constraints": {
+          "passed": true,
+          "reasons": []
+        },
+        "semantic": {
+          "passed": true,
+          "reasons": [
+            "Murder by Death is a mystery/crime film built around deceptive identities and an ending that piles on twist after twist, matching the request for a mystery where nothing is as it seems and everything flips."
+          ]
+        },
+        "taste": null,
+        "test_rating": null,
+        "test_rating_label": null
+      }
+    ],
+    "metrics": {
+      "hard_constraints": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4969,
+          5021
+        ],
+        "precision": 0.4,
+        "ndcg": 0.8503449055347546,
+        "hit_rate": 1.0
+      },
+      "semantic": {
+        "k": 10,
+        "judged_count": 5,
+        "hits": [
+          4969,
+          320,
+          5021
+        ],
+        "precision": 0.6,
+        "ndcg": 0.8854598815714874,
+        "hit_rate": 1.0
+      },
+      "taste": null
+    }
+  }
+]

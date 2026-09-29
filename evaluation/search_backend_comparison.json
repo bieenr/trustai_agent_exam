@@ -1,0 +1,262 @@
+{
+  "embedding_meta": {
+    "model": "Qwen/Qwen3-Embedding-4B",
+    "created_at": "2026-09-26T18:51:10.367220+00:00",
+    "dimensions": 2560,
+    "n_movies": 5135,
+    "encode_runs": [
+      {
+        "finished_at": null,
+        "encoded": 192,
+        "seconds": null,
+        "seconds_per_movie": null,
+        "note": "first run, aborted by HTTP 400 (input > 2048-token server context); timing not recorded"
+      },
+      {
+        "finished_at": "2026-09-26T18:49:29+00:00",
+        "encoded": 4952,
+        "seconds": 1259.51,
+        "seconds_per_movie": 0.2543,
+        "note": "resumed from cache, includes network; restored from run log"
+      }
+    ],
+    "batch_size": 16,
+    "text_template": "{title} ({year}). Genres: {genres}. {plot}",
+    "max_chars": 6000,
+    "n_truncated": 350,
+    "dtype": "float16"
+  },
+  "query_latency": {
+    "runs": 30,
+    "p50_ms": 90.9,
+    "p95_ms": 95.1,
+    "max_ms": 95.4
+  },
+  "comparisons": [
+    {
+      "user_id": 1,
+      "query": "dark psychological thriller with a twist",
+      "tfidf": [
+        "Nowhere (1997) [Comedy|Drama] q=0.223",
+        "Something Wicked This Way Comes (1983) [Children|Drama|Fantasy|Mystery|Thriller] q=0.135",
+        "Murder by Death (1976) [Comedy|Crime|Mystery|Thriller] q=0.143",
+        "Futurama: Bender's Game (2008) [Action|Adventure|Animation|Comedy|Fantasy|Sci-Fi] q=0.096",
+        "Care Bears Movie II: A New Generation (1986) [Animation|Children] q=0.099"
+      ],
+      "embedding": [
+        "Mulholland Drive (2001) [Crime|Drama|Film-Noir|Mystery|Thriller] q=0.435",
+        "Blue Velvet (1986) [Drama|Mystery|Thriller] q=0.439",
+        "Shining, The (1980) [Horror] q=0.417",
+        "And Then There Were None (1945) [Crime|Mystery] q=0.447",
+        "Dark City (1998) [Adventure|Film-Noir|Sci-Fi|Thriller] q=0.444"
+      ]
+    },
+    {
+      "user_id": 1,
+      "query": "I liked Toy Story but I'm tired of animated movies",
+      "exclude_genres": [
+        "Animation"
+      ],
+      "tfidf": [
+        "Robin Hood: Men in Tights (1993) [Comedy] q=0.000",
+        "Never Say Never Again (1983) [Action|Adventure|Thriller] q=0.000",
+        "Lady in the Water (2006) [Drama|Fantasy|Mystery] q=0.079",
+        "You Only Live Twice (1967) [Action|Adventure|Sci-Fi|Thriller] q=0.000",
+        "Diamonds Are Forever (1971) [Action|Adventure|Thriller] q=0.000"
+      ],
+      "embedding": [
+        "Last Action Hero (1993) [Action|Adventure|Comedy|Fantasy] q=0.410",
+        "Pee-wee's Big Adventure (1985) [Adventure|Comedy] q=0.366",
+        "It's a Mad, Mad, Mad, Mad World (1963) [Action|Adventure|Comedy|Crime] q=0.326",
+        "Fanboys (2009) [Adventure|Comedy|Drama] q=0.365",
+        "City Slickers (1991) [Comedy|Western] q=0.393"
+      ]
+    },
+    {
+      "user_id": 1,
+      "query": "feel-good romantic comedy set in New York",
+      "tfidf": [
+        "Sergeant York (1941) [Drama|War] q=0.140",
+        "Killing Them Softly (2012) [Crime|Drama|Thriller] q=0.159",
+        "Motherhood (2009) [Comedy] q=0.159",
+        "Party Monster (2003) [Comedy|Crime|Drama|Thriller] q=0.104",
+        "Gun Shy (2000) [Comedy] q=0.103"
+      ],
+      "embedding": [
+        "When Harry Met Sally... (1989) [Comedy|Romance] q=0.545",
+        "Enchanted (2007) [Adventure|Animation|Children|Comedy|Fantasy|Musical|Romance] q=0.431",
+        "On the Town (1949) [Comedy|Musical|Romance] q=0.458",
+        "New York, New York (1977) [Drama|Musical|Romance] q=0.450",
+        "Lost in Translation (2003) [Comedy|Drama|Romance] q=0.421"
+      ]
+    },
+    {
+      "user_id": 1,
+      "query": "epic space battle with rebels fighting an empire",
+      "tfidf": [
+        "Tears of the Sun (2003) [Action|Drama|Thriller] q=0.149",
+        "Ender's Game (2013) [Action|Adventure|Sci-Fi|IMAX] q=0.160",
+        "Robin Hood: Men in Tights (1993) [Comedy] q=0.013",
+        "Zathura (2005) [Action|Adventure|Children|Fantasy] q=0.082",
+        "You Only Live Twice (1967) [Action|Adventure|Sci-Fi|Thriller] q=0.011"
+      ],
+      "embedding": [
+        "Star Wars: The Clone Wars (2008) [Action|Adventure|Animation|Sci-Fi] q=0.453",
+        "Dune (1984) [Adventure|Sci-Fi] q=0.412",
+        "Ewoks: The Battle for Endor (1985) [Adventure|Children|Fantasy|Sci-Fi] q=0.390",
+        "Star Trek II: The Wrath of Khan (1982) [Action|Adventure|Sci-Fi|Thriller] q=0.394",
+        "Battle Beyond the Stars (1980) [Sci-Fi] q=0.388"
+      ]
+    },
+    {
+      "user_id": 15,
+      "query": "dark psychological thriller with a twist",
+      "tfidf": [
+        "Nowhere (1997) [Comedy|Drama] q=0.223",
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.000",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.003",
+        "Murder by Death (1976) [Comedy|Crime|Mystery|Thriller] q=0.143"
+      ],
+      "embedding": [
+        "Psycho (1998) [Crime|Horror|Thriller] q=0.464",
+        "Blue Velvet (1986) [Drama|Mystery|Thriller] q=0.439",
+        "Dark City (1998) [Adventure|Film-Noir|Sci-Fi|Thriller] q=0.444",
+        "Mulholland Drive (2001) [Crime|Drama|Film-Noir|Mystery|Thriller] q=0.435",
+        "Shutter Island (2010) [Drama|Mystery|Thriller] q=0.444"
+      ]
+    },
+    {
+      "user_id": 15,
+      "query": "I liked Toy Story but I'm tired of animated movies",
+      "exclude_genres": [
+        "Animation"
+      ],
+      "tfidf": [
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.000",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.000",
+        "First Kid (1996) [Children|Comedy] q=0.000",
+        "Bullet in the Head (1990) [Action|Drama|War] q=0.000"
+      ],
+      "embedding": [
+        "E.T. the Extra-Terrestrial (1982) [Children|Drama|Sci-Fi] q=0.390",
+        "Starship Troopers (1997) [Action|Sci-Fi] q=0.377",
+        "After Earth (2013) [Action|Adventure|Sci-Fi|IMAX] q=0.405",
+        "Transformers (2007) [Action|Sci-Fi|Thriller|IMAX] q=0.365",
+        "Last Action Hero (1993) [Action|Adventure|Comedy|Fantasy] q=0.410"
+      ]
+    },
+    {
+      "user_id": 15,
+      "query": "feel-good romantic comedy set in New York",
+      "tfidf": [
+        "Killing Them Softly (2012) [Crime|Drama|Thriller] q=0.159",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.009",
+        "Sergeant York (1941) [Drama|War] q=0.140",
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "Motherhood (2009) [Comedy] q=0.159"
+      ],
+      "embedding": [
+        "When Harry Met Sally... (1989) [Comedy|Romance] q=0.545",
+        "New York, New York (1977) [Drama|Musical|Romance] q=0.450",
+        "On the Town (1949) [Comedy|Musical|Romance] q=0.458",
+        "Enchanted (2007) [Adventure|Animation|Children|Comedy|Fantasy|Musical|Romance] q=0.431",
+        "Sleepless in Seattle (1993) [Comedy|Drama|Romance] q=0.420"
+      ]
+    },
+    {
+      "user_id": 15,
+      "query": "epic space battle with rebels fighting an empire",
+      "tfidf": [
+        "Ender's Game (2013) [Action|Adventure|Sci-Fi|IMAX] q=0.160",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.031",
+        "Tears of the Sun (2003) [Action|Drama|Thriller] q=0.149",
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.000"
+      ],
+      "embedding": [
+        "Star Wars: The Clone Wars (2008) [Action|Adventure|Animation|Sci-Fi] q=0.453",
+        "Dune (1984) [Adventure|Sci-Fi] q=0.412",
+        "Star Trek II: The Wrath of Khan (1982) [Action|Adventure|Sci-Fi|Thriller] q=0.394",
+        "Starship Troopers (1997) [Action|Sci-Fi] q=0.328",
+        "Battle Beyond the Stars (1980) [Sci-Fi] q=0.388"
+      ]
+    },
+    {
+      "user_id": 30,
+      "query": "dark psychological thriller with a twist",
+      "tfidf": [
+        "Nowhere (1997) [Comedy|Drama] q=0.223",
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.000",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.003",
+        "First Kid (1996) [Children|Comedy] q=0.000"
+      ],
+      "embedding": [
+        "Psycho (1998) [Crime|Horror|Thriller] q=0.464",
+        "Silence of the Lambs, The (1991) [Crime|Horror|Thriller] q=0.411",
+        "Shutter Island (2010) [Drama|Mystery|Thriller] q=0.444",
+        "Shining, The (1980) [Horror] q=0.417",
+        "Dark City (1998) [Adventure|Film-Noir|Sci-Fi|Thriller] q=0.444"
+      ]
+    },
+    {
+      "user_id": 30,
+      "query": "I liked Toy Story but I'm tired of animated movies",
+      "exclude_genres": [
+        "Animation"
+      ],
+      "tfidf": [
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.000",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.000",
+        "First Kid (1996) [Children|Comedy] q=0.000",
+        "Cherrybomb (2009) [Drama|Thriller] q=0.000"
+      ],
+      "embedding": [
+        "E.T. the Extra-Terrestrial (1982) [Children|Drama|Sci-Fi] q=0.390",
+        "Fanboys (2009) [Adventure|Comedy|Drama] q=0.365",
+        "Starship Troopers (1997) [Action|Sci-Fi] q=0.377",
+        "After Earth (2013) [Action|Adventure|Sci-Fi|IMAX] q=0.405",
+        "Transformers (2007) [Action|Sci-Fi|Thriller|IMAX] q=0.365"
+      ]
+    },
+    {
+      "user_id": 30,
+      "query": "feel-good romantic comedy set in New York",
+      "tfidf": [
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.009",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.005",
+        "First Kid (1996) [Children|Comedy] q=0.002",
+        "Killing Them Softly (2012) [Crime|Drama|Thriller] q=0.159"
+      ],
+      "embedding": [
+        "When Harry Met Sally... (1989) [Comedy|Romance] q=0.545",
+        "Enchanted (2007) [Adventure|Animation|Children|Comedy|Fantasy|Musical|Romance] q=0.431",
+        "On the Town (1949) [Comedy|Musical|Romance] q=0.458",
+        "New York, New York (1977) [Drama|Musical|Romance] q=0.450",
+        "Sleepless in Seattle (1993) [Comedy|Drama|Romance] q=0.420"
+      ]
+    },
+    {
+      "user_id": 30,
+      "query": "epic space battle with rebels fighting an empire",
+      "tfidf": [
+        "The Star Wars Holiday Special (1978) [Adventure|Children|Comedy|Sci-Fi] q=0.031",
+        "Cool Hand Luke (1967) [Drama] q=0.000",
+        "Death Race 2 (2010) [Action|Sci-Fi|Thriller] q=0.000",
+        "First Kid (1996) [Children|Comedy] q=0.000",
+        "Ender's Game (2013) [Action|Adventure|Sci-Fi|IMAX] q=0.160"
+      ],
+      "embedding": [
+        "Star Wars: The Clone Wars (2008) [Action|Adventure|Animation|Sci-Fi] q=0.453",
+        "Star Trek II: The Wrath of Khan (1982) [Action|Adventure|Sci-Fi|Thriller] q=0.394",
+        "Dune (1984) [Adventure|Sci-Fi] q=0.412",
+        "Ewoks: The Battle for Endor (1985) [Adventure|Children|Fantasy|Sci-Fi] q=0.390",
+        "Star Trek: First Contact (1996) [Action|Adventure|Sci-Fi|Thriller] q=0.371"
+      ]
+    }
+  ]
+}

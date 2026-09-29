@@ -1,0 +1,50 @@
+{
+  "trained_at": "2026-09-28T07:21:38+00:00",
+  "sklearn_version": "1.8.0",
+  "fit_pairs": 7377,
+  "liked_rating": 4.0,
+  "disliked_rating": 2.5,
+  "neutral": {
+    "peer_offset": 0.03299999999999992,
+    "log_n_raters": 2.995732273553991,
+    "user_mean": 3.527,
+    "movie_bias": 0.003,
+    "log_movie_n": 3.332204510175204,
+    "user_std": 0.9272014133887121,
+    "log_user_n": 5.356586274672012,
+    "genre_dev_mean": 0.02149999999999999,
+    "genre_dev_min": -0.097,
+    "content_pos_minus_neg": 0.016610026359558105,
+    "item_knn_offset": 0.12684229034747396,
+    "item_knn_weight": 1.3040368556976318,
+    "mlp_pred": 3.5378942489624023
+  },
+  "mlp": {
+    "seed": 0,
+    "epochs": 11,
+    "pca_dim": 128,
+    "cf_dim": 64,
+    "hidden": [
+      256,
+      64
+    ],
+    "dropout": 0.3
+  },
+  "features": [
+    "peer_offset",
+    "log_n_raters",
+    "user_mean",
+    "movie_bias",
+    "log_movie_n",
+    "user_std",
+    "log_user_n",
+    "genre_dev_mean",
+    "genre_dev_min",
+    "content_pos_minus_neg",
+    "item_knn_offset",
+    "item_knn_weight",
+    "mlp_pred"
+  ],
+  "like_cut": 0.7032575560114629,
+  "dislike_cut": 0.7018953517932032
+}

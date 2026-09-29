@@ -1,0 +1,436 @@
+{
+  "action_adventure_no_scifi": [
+    1198,
+    733,
+    112,
+    648,
+    1291
+  ],
+  "adventure_before_1980_no_western": [
+    919,
+    4799,
+    1032,
+    2871,
+    3345
+  ],
+  "allowed_repeat_favorite_genre": [
+    318,
+    1222,
+    1103,
+    3949,
+    4848
+  ],
+  "another_witty_mystery": [
+    1086,
+    2413,
+    3284,
+    911,
+    7833
+  ],
+  "atmospheric_scifi": [
+    924,
+    7001,
+    2311,
+    6645,
+    2916
+  ],
+  "children_fantasy_no_animation": [
+    7247,
+    1028,
+    173873,
+    919,
+    1073
+  ],
+  "classic_western_before_1970": [
+    5550,
+    3737,
+    1209,
+    4329,
+    6785
+  ],
+  "clever_plot_twist_after_1990": [
+    4848,
+    2389,
+    3535,
+    74458,
+    27674,
+    164
+  ],
+  "comforting_light_evening": [
+    337,
+    1307,
+    3307,
+    6711,
+    6245
+  ],
+  "corruption_crime": [
+    1617,
+    3735,
+    4830,
+    62792,
+    318
+  ],
+  "dark_comedy_crime": [
+    910,
+    2383,
+    2001,
+    2371,
+    1963
+  ],
+  "dark_psychological_thriller_twist": [
+    1253,
+    1374,
+    1356,
+    908,
+    593,
+    4878
+  ],
+  "date_night_romance_comedy": [
+    4306,
+    539,
+    4719,
+    11,
+    497
+  ],
+  "drama_without_romance": [
+    68157,
+    1208,
+    97304,
+    8132,
+    760
+  ],
+  "eighties_fantasy": [
+    1197,
+    1261,
+    2115,
+    26492,
+    8169
+  ],
+  "explain_then_recommend_similar": [
+    1086,
+    2076,
+    27674,
+    2413,
+    3535
+  ],
+  "family_adventure_no_animation": [
+    1197,
+    1270,
+    7247,
+    3489,
+    4799
+  ],
+  "family_viewing_no_horror_crime": [
+    68954,
+    586,
+    1,
+    4886,
+    56152
+  ],
+  "family_weekend_pick": [
+    364,
+    1022,
+    596,
+    661,
+    594,
+    2087
+  ],
+  "fast_paced_heist": [
+    4963,
+    4011,
+    4889,
+    1036,
+    7028
+  ],
+  "feel_good_sports_story": [
+    1302,
+    246,
+    2042,
+    205,
+    5292,
+    485
+  ],
+  "fight_club_similar_users_twist": [
+    2076,
+    4848,
+    3535,
+    6639,
+    8950
+  ],
+  "film_noir_mystery": [
+    913,
+    2206,
+    942,
+    929,
+    1284
+  ],
+  "friendship_theme_no_animation": [
+    79134,
+    88405,
+    4474,
+    2248,
+    40826,
+    3536
+  ],
+  "genre_blind_spot_recommendation": [
+    2064,
+    1289,
+    2677,
+    1192,
+    246,
+    90630
+  ],
+  "go_with_usual_taste": [
+    1214,
+    541,
+    1258,
+    4941,
+    1200
+  ],
+  "grief_and_healing": [
+    51931,
+    82767,
+    80969,
+    1305,
+    4008
+  ],
+  "grief_redemption_drama": [
+    364,
+    110127,
+    68954,
+    356,
+    318,
+    95309
+  ],
+  "horror_after_2010": [
+    1258,
+    26492,
+    366,
+    2076,
+    1982,
+    1974,
+    2327,
+    1407,
+    2867,
+    1994
+  ],
+  "low_key_date_night": [
+    2248,
+    337,
+    2973,
+    3045,
+    2738,
+    94,
+    1449,
+    1307
+  ],
+  "matrix_vibe_not_action": [
+    1270,
+    1097,
+    1223,
+    741,
+    2010,
+    29
+  ],
+  "modern_scifi_no_horror": [
+    4370,
+    4878,
+    4638,
+    3326,
+    4015
+  ],
+  "mystery_thriller_2000s": [
+    4878,
+    4226,
+    4848,
+    4978,
+    4975
+  ],
+  "nineties_crime": [
+    1089,
+    50,
+    2502,
+    165,
+    2959
+  ],
+  "nineties_crime_flick": [
+    296,
+    778,
+    1617,
+    50,
+    288
+  ],
+  "nonlinear_mystery": [
+    4848,
+    4226,
+    50,
+    1089,
+    4878
+  ],
+  "personalized_action_no_war": [
+    8636,
+    1101,
+    45722,
+    1197,
+    2600
+  ],
+  "personalized_classic_movie": [
+    919,
+    1077,
+    908,
+    1103,
+    1136
+  ],
+  "personalized_documentary": [
+    2677,
+    246,
+    116,
+    2064,
+    75947,
+    99,
+    5643,
+    1289
+  ],
+  "personalized_no_comedy": [
+    318,
+    3379,
+    1276,
+    1196,
+    431
+  ],
+  "personalized_open_choice": [
+    1945,
+    4848,
+    1266,
+    3435,
+    4878
+  ],
+  "personalized_two_movies": [
+    318,
+    296,
+    1089,
+    4027,
+    750
+  ],
+  "personalized_watch_tonight": [
+    1193,
+    7247,
+    318,
+    1276,
+    2087
+  ],
+  "post_work_comedy_mood": [
+    608,
+    910,
+    2502,
+    3033,
+    38061
+  ],
+  "pre_2000_musical": [
+    1073,
+    1298,
+    364,
+    869,
+    26195
+  ],
+  "pre_2000_scifi_pick": [
+    1527,
+    7481,
+    1097,
+    1301,
+    1676
+  ],
+  "quiet_character_study": [
+    2858,
+    1952,
+    1305,
+    979,
+    2076
+  ],
+  "recent_animation_comedy": [
+    78499,
+    79091,
+    87876,
+    56152,
+    81847
+  ],
+  "redemption_drama_after_1980": [
+    318,
+    36,
+    4008,
+    1305,
+    1266
+  ],
+  "similar_to_alien_not_horror": [
+    924,
+    26124,
+    4443,
+    2311,
+    5410
+  ],
+  "similar_to_before_sunrise": [
+    25,
+    497,
+    362,
+    920,
+    587,
+    903
+  ],
+  "similar_to_groundhog_day_no_romance": [],
+  "similar_users_pulp_fiction_followup": [
+    2973,
+    1227,
+    3683,
+    4855,
+    1086
+  ],
+  "tense_thriller_no_horror": [
+    6639,
+    4326,
+    903,
+    1344,
+    1086
+  ],
+  "toy_story_live_action": [
+    8368,
+    2329,
+    54001,
+    50,
+    8636
+  ],
+  "unreliable_narrator_mystery": [
+    4969,
+    2186,
+    320,
+    1193,
+    5021
+  ],
+  "unreliable_narrator_no_horror": [
+    2076,
+    50,
+    1193,
+    903,
+    1354
+  ],
+  "unseen_comedy_simple": [
+    1394,
+    1270,
+    6188,
+    54004,
+    34162
+  ],
+  "uplifting_drama": [
+    318,
+    6881,
+    205,
+    6245,
+    4117
+  ],
+  "war_drama_1960_1990": [
+    1090,
+    1204,
+    1299,
+    1217,
+    1242
+  ]
+}

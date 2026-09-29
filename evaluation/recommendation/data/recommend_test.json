@@ -1,0 +1,652 @@
+[
+    {
+        "case_id": "toy_story_live_action",
+        "user_id": 30,
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I liked Toy Story but I'm tired of animated movies — what else?"
+            }
+        ],
+        "expected": {
+            "hard_constraints": {
+                "must_have_genres": [],
+                "must_not_have_genres": ["Animation"],
+                "must_not_be_previously_rated": true,
+                "min_year": 0,
+                "max_year": "derive_from_train_max_timestamp_of_user_id"
+            },
+            "semantic_requirement": true
+        }
+    },
+    {
+        "case_id": "personalized_watch_tonight",
+        "user_id": 1,
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What should I watch tonight? Pick something that fits my taste."
+            }
+        ],
+        "expected": {
+            "hard_constraints": {
+                "must_have_genres": [],
+                "must_not_have_genres": [],
+                "must_not_be_previously_rated": true,
+                "min_year": 0,
+                "max_year": "derive_from_train_max_timestamp_of_user_id"
+            },
+            "semantic_requirement": false
+        }
+    },
+    {
+        "case_id": "dark_psychological_thriller_twist",
+        "user_id": 15,
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm in the mood for something tense tonight."
+            },
+            {
+                "role": "assistant",
+                "content": "What kind of tension are you looking for?"
+            },
+            {
+                "role": "user",
+                "content": "Recommend a high-quality dark psychological thriller with a clever twist."
+            }
+        ],
+        "expected": {
+            "hard_constraints": {
+                "must_have_genres": ["Thriller"],
+                "must_not_have_genres": [],
+                "must_not_be_previously_rated": true,
+                "min_year": 0,
+                "max_year": "derive_from_train_max_timestamp_of_user_id"
+            },
+            "semantic_requirement": true
+        }
+    },
+    {
+        "case_id": "similar_users_pulp_fiction_followup",
+        "user_id": 414,
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What do people with similar taste to mine think about Pulp Fiction?"
+            },
+            {
+                "role": "assistant",
+                "content": "People whose rating patterns are similar to yours generally respond positively to it, especially its nonlinear crime story, sharp dialogue, and dark humor."
+            },
+            {
+                "role": "user",
+                "content": "Based on that, recommend an unseen crime movie with similar appeal that those viewers would likely enjoy."
+            }
+        ],
+        "expected": {
+            "hard_constraints": {
+                "must_have_genres": ["Crime"],
+                "must_not_have_genres": [],
+                "must_not_be_previously_rated": true,
+                "min_year": 0,
+                "max_year": "derive_from_train_max_timestamp_of_user_id"
+            },
+            "semantic_requirement": true
+        }
+    },
+    {
+        "case_id": "explain_then_recommend_similar",
+        "user_id": 474,
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Recommend a smart mystery movie for me."
+            },
+            {
+                "role": "assistant",
+                "content": "A layered mystery with morally complex characters and a strong dramatic core should suit your viewing history."
+            },
+            {
+                "role": "user",
+                "content": "Why do you think I'd like that? Use those reasons to recommend another unseen mystery."
+            }
+        ],
+        "expected": {
+            "hard_constraints": {
+                "must_have_genres": ["Mystery"],
+                "must_not_have_genres": [],
+                "must_not_be_previously_rated": true,
+                "min_year": 0,
+                "max_year": "derive_from_train_max_timestamp_of_user_id"
+            },
+            "semantic_requirement": true
+        }
+    },
+    {
+        "case_id": "genre_blind_spot_recommendation",
+        "user_id": 599,
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What's my blind spot? What genres am I missing?"
+            },
+            {
+                "role": "assistant",
+                "content": "I'll compare the genres in your rating history with the catalog to identify areas you have explored less."
+            },
+            {
+                "role": "user",
+                "content": "Recommend an unseen movie from one of those underexplored genres, but make sure it still connects with the tastes shown in my history."
+            }
+        ],
+        "expected": {
+            "hard_constraints": {
+                "must_have_genres": [],
+                "must_not_have_genres": [],
+                "must_not_be_previously_rated": true,
+                "min_year": 0,
+                "max_year": "derive_from_train_max_timestamp_of_user_id"
+            },
+            "semantic_requirement": false
+        }
+    },
+    {
+        "case_id": "unseen_comedy_simple",
+        "user_id": 2,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Comedy movie for me."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Comedy"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "nineties_crime",
+        "user_id": 3,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Crime movie released in the 1990s."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Crime"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 1990, "max_year": 1999}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "modern_scifi_no_horror",
+        "user_id": 4,
+        "conversation": [{"role": "user", "content": "Please recommend an unseen Sci-Fi movie from 2000 or later, but no Horror."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Sci-Fi"], "must_not_have_genres": ["Horror"], "must_not_be_previously_rated": true, "min_year": 2000, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "classic_western_before_1970",
+        "user_id": 5,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Western made no later than 1969."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Western"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": 1969}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "family_adventure_no_animation",
+        "user_id": 6,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Adventure movie for family viewing that is not animated."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Adventure"], "must_not_have_genres": ["Animation"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "uplifting_drama",
+        "user_id": 7,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Drama that feels uplifting and hopeful."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Drama"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "tense_thriller_no_horror",
+        "user_id": 8,
+        "conversation": [{"role": "user", "content": "I want suspense without scares."}, {"role": "assistant", "content": "So you want tension, but not a horror film."}, {"role": "user", "content": "Exactly. Recommend an unseen tense Thriller that is not Horror."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Thriller"], "must_not_have_genres": ["Horror"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "comforting_light_evening",
+        "user_id": 9,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie for a comforting, light evening."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "friendship_theme_no_animation",
+        "user_id": 10,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie centered on enduring friendship, but not an animated movie."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": ["Animation"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "redemption_drama_after_1980",
+        "user_id": 11,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Drama from 1980 or later about redemption and second chances."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Drama"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 1980, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "corruption_crime",
+        "user_id": 12,
+        "conversation": [{"role": "user", "content": "I'd like a story about institutional corruption."}, {"role": "assistant", "content": "Would you like to narrow that to a genre?"}, {"role": "user", "content": "Yes, recommend an unseen Crime movie about institutional corruption."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Crime"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "nonlinear_mystery",
+        "user_id": 13,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Mystery with a nonlinear story."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Mystery"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "unreliable_narrator_no_horror",
+        "user_id": 14,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie with an unreliable narrator, excluding Horror."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": ["Horror"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "clever_plot_twist_after_1990",
+        "user_id": 16,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie from 1990 or later with a clever plot twist."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 1990, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "date_night_romance_comedy",
+        "user_id": 17,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Romance and Comedy movie that works well for date night."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Romance", "Comedy"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "personalized_open_choice",
+        "user_id": 18,
+        "conversation": [{"role": "user", "content": "Use my taste history to recommend an unseen movie for tonight."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "personalized_two_movies",
+        "user_id": 19,
+        "conversation": [{"role": "user", "content": "Based on my viewing taste, recommend two unseen movies."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "personalized_documentary",
+        "user_id": 20,
+        "conversation": [{"role": "user", "content": "Choose an unseen Documentary that fits my taste and recommend it to me."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Documentary"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "personalized_action_no_war",
+        "user_id": 21,
+        "conversation": [{"role": "user", "content": "Using my taste history, recommend an unseen Action movie that is not a War movie."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Action"], "must_not_have_genres": ["War"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "eighties_fantasy",
+        "user_id": 22,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Fantasy movie released from 1980 through 1989."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Fantasy"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 1980, "max_year": 1989}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "pre_2000_musical",
+        "user_id": 23,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Musical released before 2000."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Musical"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": 1999}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "recent_animation_comedy",
+        "user_id": 24,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie that is both Animation and Comedy and was released in 2005 or later."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Animation", "Comedy"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 2005, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "drama_without_romance",
+        "user_id": 25,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Drama, but exclude Romance."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Drama"], "must_not_have_genres": ["Romance"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "action_adventure_no_scifi",
+        "user_id": 26,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie that is both Action and Adventure, with no Sci-Fi."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Action", "Adventure"], "must_not_have_genres": ["Sci-Fi"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "film_noir_mystery",
+        "user_id": 27,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie categorized as both Film-Noir and Mystery."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Film-Noir", "Mystery"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "war_drama_1960_1990",
+        "user_id": 28,
+        "conversation": [{"role": "user", "content": "Recommend an unseen War and Drama movie released between 1960 and 1990 inclusive."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["War", "Drama"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 1960, "max_year": 1990}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "grief_and_healing",
+        "user_id": 29,
+        "conversation": [{"role": "user", "content": "I'm looking for a thoughtful story about grief."}, {"role": "assistant", "content": "Should the story focus only on loss, or also on recovery?"}, {"role": "user", "content": "Both. Recommend an unseen movie about grief and emotional healing."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "dark_comedy_crime",
+        "user_id": 31,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie that blends Crime and Comedy with a darkly comic tone."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Crime", "Comedy"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "feel_good_sports_story",
+        "user_id": 32,
+        "conversation": [{"role": "user", "content": "Recommend an unseen feel-good movie about an underdog sports team."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "quiet_character_study",
+        "user_id": 33,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Drama that is a quiet, intimate character study."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Drama"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "fast_paced_heist",
+        "user_id": 34,
+        "conversation": [{"role": "user", "content": "I want something energetic involving a robbery."}, {"role": "assistant", "content": "You are looking for a fast-moving heist story."}, {"role": "user", "content": "Yes. Recommend an unseen fast-paced Crime movie built around a heist."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Crime"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "atmospheric_scifi",
+        "user_id": 35,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Sci-Fi movie with a mysterious, atmospheric tone rather than nonstop action."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Sci-Fi"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "similar_to_groundhog_day_no_romance",
+        "user_id": 36,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie with an inventive repeating-day premise like Groundhog Day, but exclude Romance."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": ["Romance"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "similar_to_alien_not_horror",
+        "user_id": 37,
+        "conversation": [{"role": "user", "content": "I liked the isolated-spacecraft tension in Alien."}, {"role": "assistant", "content": "You liked its confined science-fiction setting and mounting tension."}, {"role": "user", "content": "Recommend an unseen Sci-Fi movie with that kind of appeal, but not Horror."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Sci-Fi"], "must_not_have_genres": ["Horror"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "similar_to_before_sunrise",
+        "user_id": 38,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Romance with the intimate, conversation-driven appeal of Before Sunrise."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Romance"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "children_fantasy_no_animation",
+        "user_id": 39,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie in both the Children and Fantasy genres, but not Animation."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Children", "Fantasy"], "must_not_have_genres": ["Animation"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "horror_after_2010",
+        "user_id": 40,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Horror movie released in 2010 or later."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Horror"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 2010, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "adventure_before_1980_no_western",
+        "user_id": 41,
+        "conversation": [{"role": "user", "content": "Recommend an unseen Adventure released before 1980, excluding Westerns."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Adventure"], "must_not_have_genres": ["Western"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": 1979}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "mystery_thriller_2000s",
+        "user_id": 42,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie categorized as Mystery and Thriller from 2000 through 2009."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Mystery", "Thriller"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 2000, "max_year": 2009}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "personalized_classic_movie",
+        "user_id": 43,
+        "conversation": [{"role": "user", "content": "Use my taste history to recommend an unseen movie released no later than 1975."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": 1975}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "personalized_no_comedy",
+        "user_id": 44,
+        "conversation": [{"role": "user", "content": "Pick an unseen movie that suits my taste, but do not recommend a Comedy."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": ["Comedy"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "allowed_repeat_favorite_genre",
+        "user_id": 45,
+        "conversation": [{"role": "user", "content": "It is fine if I have rated it before. Recommend a Drama that matches my general taste."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Drama"], "must_not_have_genres": [], "must_not_be_previously_rated": false, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": false}
+    },
+    {
+        "case_id": "another_witty_mystery",
+        "user_id": 46,
+        "conversation": [{"role": "user", "content": "I want a Mystery with playful humor and witty dialogue."}, {"role": "assistant", "content": "You want a mystery whose appeal comes from playful humor and witty dialogue."}, {"role": "user", "content": "Correct. Recommend an unseen Mystery for those same reasons."}],
+        "expected": {"hard_constraints": {"must_have_genres": ["Mystery"], "must_not_have_genres": [], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+    {
+        "case_id": "family_viewing_no_horror_crime",
+        "user_id": 47,
+        "conversation": [{"role": "user", "content": "Recommend an unseen movie suitable for relaxed family viewing, with neither Horror nor Crime."}],
+        "expected": {"hard_constraints": {"must_have_genres": [], "must_not_have_genres": ["Horror", "Crime"], "must_not_be_previously_rated": true, "min_year": 0, "max_year": "derive_from_train_max_timestamp_of_user_id"}, "semantic_requirement": true}
+    },
+      {
+    "case_id": "post_work_comedy_mood",
+    "user_id": 7,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Been a long week — I just want to laugh tonight. Something I haven't already watched?"
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  },
+  {
+    "case_id": "nineties_crime_flick",
+    "user_id": 22,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Give me a crime flick from sometime in the 90s that I haven't rated yet."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [
+          "Crime"
+        ],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 1990,
+        "max_year": 1999
+      },
+      "semantic_requirement": false
+    }
+  },
+  {
+    "case_id": "low_key_date_night",
+    "user_id": 101,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "My partner and I want to watch something together tonight, nothing too heavy."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it — looking for something relaxed and enjoyable for a low-key date night in."
+      },
+      {
+        "role": "user",
+        "content": "Yeah exactly. Something we haven't seen before."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  },
+  {
+    "case_id": "matrix_vibe_not_action",
+    "user_id": 58,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "I really liked The Matrix. Want something with that same mind-bending feel, but not another straight-up action movie."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [],
+        "must_not_have_genres": [
+          "Action"
+        ],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  },
+  {
+    "case_id": "go_with_usual_taste",
+    "user_id": 3,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What's a good pick for me tonight based on what I usually watch?"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your rating history, you tend to gravitate toward character-driven dramas."
+      },
+      {
+        "role": "user",
+        "content": "Okay, go with that then — something new I haven't seen."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": false
+    }
+  },
+  {
+    "case_id": "grief_redemption_drama",
+    "user_id": 210,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "I want a drama that deals with grief and finding redemption afterward — something that isn't too slow or artsy though. Has to be a Drama."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [
+          "Drama"
+        ],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  },
+  {
+    "case_id": "fight_club_similar_users_twist",
+    "user_id": 305,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Do people with similar taste to mine tend to like Fight Club?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes — users with viewing patterns close to yours rate it highly, often citing its dark humor and twist ending."
+      },
+      {
+        "role": "user",
+        "content": "Cool, find me something else I haven't seen with that same twisty, dark vibe."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  },
+  {
+    "case_id": "family_weekend_pick",
+    "user_id": 46,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Looking for something the whole family can watch together this weekend — haven't seen it before."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  },
+  {
+    "case_id": "pre_2000_scifi_pick",
+    "user_id": 89,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Show me a sci-fi movie made before 2000 that I haven't already rated."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [
+          "Sci-Fi"
+        ],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": 1999
+      },
+      "semantic_requirement": false
+    }
+  },
+  {
+    "case_id": "unreliable_narrator_mystery",
+    "user_id": 133,
+    "conversation": [
+      {
+        "role": "user",
+        "content": "I love mysteries where you can't trust the narrator and everything flips at the end — recommend one I haven't seen."
+      }
+    ],
+    "expected": {
+      "hard_constraints": {
+        "must_have_genres": [
+          "Mystery"
+        ],
+        "must_not_have_genres": [],
+        "must_not_be_previously_rated": true,
+        "min_year": 0,
+        "max_year": "derive_from_train_max_timestamp_of_user_id"
+      },
+      "semantic_requirement": true
+    }
+  }
+]
